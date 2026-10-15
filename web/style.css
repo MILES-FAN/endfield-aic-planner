@@ -338,13 +338,21 @@ main { flex: 1; display: flex; min-height: 0; }
     linear-gradient(90deg, var(--grid) 1px, transparent 1px);
   background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
 }
-/* "+" registration marks in the stage corners, as on the official site */
-.graph-host::before, .graph-host::after {
+/* "+" registration mark in the bottom-right stage corner, as on the official site
+   (top corners sit under the toolbar, bottom-left holds the GitHub link) */
+.graph-host::after {
   content: "+"; position: absolute; z-index: 1; pointer-events: none;
   font: 300 18px/1 var(--font-display); color: var(--ink-mute);
 }
-.graph-host::before { bottom: 8px; left: 10px; }   /* top-left sits under the toolbar */
 .graph-host::after { bottom: 8px; right: 10px; }
+/* small, faded source link in the stage's bottom-left corner; full strength on hover */
+.gh-link {
+  position: absolute; z-index: 3; left: 8px; bottom: 6px;
+  display: grid; place-items: center; width: 30px; height: 30px;
+  color: var(--ink); opacity: .32; transition: opacity .15s;
+}
+.gh-link:hover, .gh-link:focus-visible { opacity: .85; outline: none; }
+.gh-link svg { width: 18px; height: 18px; fill: currentColor; }
 .graph-host.panning { cursor: grabbing; }
 #graph { width: 100%; height: 100%; display: block; }
 .nodes-layer { position: absolute; inset: 0; transform-origin: 0 0; }
