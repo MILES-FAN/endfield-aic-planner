@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- ships its own light + dark theme: stop Dark Reader re-tinting it (ENV zone colors must stay exact) -->
+<meta name="darkreader-lock">
+<meta name="color-scheme" content="light dark">
+<script>
+  /* apply a forced theme before first paint (no flash); "auto" = follow the OS */
+  try { const th = localStorage.getItem("theme"); if (th === "light" || th === "dark") document.documentElement.dataset.theme = th; } catch (_) {}
+</script>
+<title>Endfield AIC Factory Planner</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">
+      <!-- abstract Protocol Automation-Core (PAC), seen from below as in-game: the capped
+           twin-rail column converges upward around the crystal shard, over a collar, the
+           stem + splayed struts and a wide base slab, so the whole reads as a tower/triangle -->
+      <svg class="pac" viewBox="0 0 24 24">
+        <path class="pac-base" d="M11.1 16h1.8v4.6h-1.8zM9.8 16.2l1 .9-3.9 3.5H5.2zM14.2 16.2l-1 .9 3.9 3.5h1.7zM4.6 20.6h14.8l1.3 1.3v1.6H3.3v-1.6z"/>
+        <path class="pac-rail" d="M11.4.4h1.2v1.2h-1.2zM11.1 1.6h1.8L15.8 14h-1.4L12.4 3h-.8L9.6 14H8.2zM7.9 14h8.2l-1.3 2.2H9.2z"/>
+        <path class="pac-core" d="M12 4.4 13.3 12.6 12 16 10.7 12.6z"/>
+      </svg>
+    </span>
+    <div>
+      <h1 data-i18n="appTitle">AIC Factory Planner</h1>
+      <p class="sub" data-i18n="tagline">Arknights: Endfield &mdash; line balancing &amp; production flow</p>
+    </div>
+  </div>
+  <div class="controls">
+    <select id="lang" class="lang-sel" title="Language / 语言 / 言語" aria-label="Language">
+      <option value="en">English</option>
+      <option value="zh">中文</option>
+      <option value="ja">日本語</option>
+    </select>
+    <button id="theme" class="theme-btn" type="button" data-i18n-title="themeTitle" title="Theme">◐</button>
+    <div class="field search-field">
+      <label for="target" data-i18n="targetProduct">Target product</label>
+      <div class="search-wrap">
+        <input id="target" type="text" autocomplete="off" spellcheck="false"
+               data-i18n-ph="searchPh" placeholder="Search item (EN / 中文)…">
+        <ul id="suggest" class="suggest" hidden></ul>
+      </div>
+    </div>
+    <div class="field rate-field">
+      <label for="rate" data-i18n="rateLabel">Rate /min</label>
+      <input id="rate" type="number" min="0" step="any" data-i18n-ph="ratePh" placeholder="1 line">
+    </div>
+    <div class="field env-field">
+      <label for="env" data-i18n="envZones">ENV zones</label>
+      <select id="env" data-i18n-title="envTitle" title="ENV zones">
+        <option value="opt" data-i18n="envOpt" selected>Optimal</option>
+        <option value="min" data-i18n="envMin">Minimal</option>
+      </select>
+    </div>
+    <button id="lp-toggle" class="toggle" role="switch" aria-checked="false"
+            data-i18n-title="closedLoopTitle" title="Closed-loop LP">
+      <span class="dot"></span> <span data-i18n="closedLoop">Closed-loop</span>
+    </button>
+    <button id="plan" class="primary" data-i18n="planLine">Plan line</button>
+  </div>
+</header>
+
+<section id="lp-bar" class="lp-bar" hidden>
+  <label class="lp-field"><span data-i18n="objective">Objective</span>
+    <select id="lp-obj">
+      <option value="min" data-i18n="objMin">Fewest machines</option>
+      <option value="max" data-i18n="objMax">Maximize output</option>
+      <option value="revenue" data-i18n="objRevenue">Maximize revenue</option>
+    </select>
+  </label>
+  <label class="lp-field"><span data-i18n="selfPower">Self-power</span>
+    <select id="lp-selfpower"><option value="" data-i18n="none">— none —</option></select>
+  </label>
+  <div class="lp-field lp-adder">
+    <span class="lp-lbl" data-i18n="facilityCaps">Facility caps</span>
+    <div class="lp-add-row">
+      <select id="lp-cap-fac"></select>
+      <input id="lp-cap-n" type="number" min="0" step="any" data-i18n-ph="capPh" placeholder="≤ N">
+      <button id="lp-cap-add" class="mini" data-i18n-title="add" title="Add">+</button>
+    </div>
+    <div id="lp-caps" class="chips"></div>
+  </div>
+  <div class="lp-field lp-adder">
+    <span class="lp-lbl" data-i18n="openLoopItems">Open-loop items</span>
+    <div class="lp-add-row">
+      <input id="lp-open-in" list="lp-items" data-i18n-ph="openLoopPh" placeholder="e.g. Sewage / 污水">
+      <button id="lp-open-add" class="mini" data-i18n-title="add" title="Add">+</button>
+    </div>
+    <div id="lp-open" class="chips"></div>
+  </div>
+  <div class="lp-field lp-adder">
+    <span class="lp-lbl" data-i18n="extraRaw">Extra raw</span>
+    <div class="lp-add-row">
+      <input id="lp-raw-in" list="lp-items" data-i18n-ph="extraRawPh" placeholder="supply externally">
+      <button id="lp-raw-add" class="mini" data-i18n-title="add" title="Add">+</button>
+    </div>
+    <div id="lp-raw" class="chips"></div>
+  </div>
+  <datalist id="lp-items"></datalist>
+</section>
+
+<main>
+  <section id="stage" class="stage">
+    <div id="graph-toolbar" class="graph-toolbar" hidden>
+      <span id="plan-title" class="plan-title"></span>
+      <span class="spacer"></span>
+      <button data-zoom="in"  data-i18n-title="zoomIn" title="Zoom in">+</button>
+      <button data-zoom="out" data-i18n-title="zoomOut" title="Zoom out">&minus;</button>
+      <button data-zoom="fit" data-i18n-title="fitTitle" data-i18n="fit" title="Fit to view">Fit</button>
+    </div>
+    <div id="graph-host" class="graph-host">
+      <div id="placeholder" class="placeholder">
+        <p class="big" data-i18n="phBig">Plan a production line</p>
+        <p data-i18n="phBody">Pick a target product and a throughput, and this lays out the machines,
+           raw inputs, byproducts and power draw as a flow diagram.</p>
+        <p class="hint" data-i18n="phHint">Data mirrored from endfield.wiki.gg · rates and power match scripts/balance.py</p>
+      </div>
+      <svg id="graph" hidden></svg>
+      <div id="nodes" class="nodes-layer" hidden></div>
+    </div>
+  </section>
+
+  <aside id="panel" class="panel" hidden>
+    <div class="panel-block" id="alts-block" hidden>
+      <h2 data-i18n="recipeChoices">Recipe choices</h2>
+      <p class="muted small" data-i18n="recipeChoicesHint">Some items have more than one recipe &mdash; switch to re-plan.</p>
+      <div id="alts"></div>
+    </div>
+
+    <div class="panel-block">
+      <h2 data-i18n="summary">Summary</h2>
+      <div id="summary" class="summary"></div>
+    </div>
+
+    <div class="panel-block">
+      <h2><span data-i18n="machines">Machines</span> <span id="mach-total" class="tag"></span></h2>
+      <div id="machines" class="rows"></div>
+    </div>
+
+    <div class="panel-block">
+      <h2><span data-i18n="rawInputs">Raw inputs</span> <span class="muted small" data-i18n="perMin">/min</span></h2>
+      <div id="inputs" class="rows"></div>
+    </div>
+
+    <div class="panel-block" id="byproducts-block">
+      <h2><span data-i18n="byproducts">Byproducts</span> <span class="muted small" data-i18n="perMin">/min</span></h2>
+      <div id="byproducts" class="rows"></div>
+    </div>
+
+    <div class="panel-block" id="env-block" style="display:none">
+      <h2><span data-i18n="envZones">ENV zones</span> <span class="muted small" data-i18n="envHint">Gas Dispersing Unit · 13×13</span></h2>
+      <div id="env-note" class="env-note muted small"></div>
+      <div id="envs" class="rows"></div>
+    </div>
+
+    <div class="panel-block" id="openloop-block" style="display:none">
+      <h2><span data-i18n="openLoopFluids">Open-loop fluids</span> <span class="muted small" data-i18n="supplyDump">supply · dump /min</span></h2>
+      <div id="openloop" class="rows"></div>
+    </div>
+  </aside>
+</main>
+
+<div id="tooltip" class="tooltip" hidden></div>
+<!-- pinyin search (JEC-style), pinyin-pro 3.29.4 · MIT · vendor/pinyin-pro.LICENSE -->
+<script src="vendor/pinyin-pro-3.29.4.min.js"></script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,4506 @@
+{
+"Carbon": {
+"tier": 2,
+"image": null
+},
+"Origocrust": {
+"tier": 2,
+"image": null
+},
+"Amethyst Fiber": {
+"tier": 2,
+"image": null
+},
+"Ferrium": {
+"tier": 2,
+"image": null
+},
+"Xiranite": {
+"tier": 2,
+"image": null
+},
+"Cuprium": {
+"tier": 2,
+"image": null
+},
+"Originium Powder": {
+"tier": 2,
+"image": null
+},
+"Carbon Powder": {
+"tier": 2,
+"image": null
+},
+"Origocrust Powder": {
+"tier": 2,
+"image": null
+},
+"Amethyst Powder": {
+"tier": 2,
+"image": null
+},
+"Ferrium Powder": {
+"tier": 2,
+"image": null
+},
+"Cuprium Powder": {
+"tier": 2,
+"image": null
+},
+"Sandleaf Powder": {
+"tier": 2,
+"image": null
+},
+"Aketine Powder": {
+"tier": 2,
+"image": null
+},
+"Glowbug Powder": {
+"tier": 3,
+"image": null
+},
+"Scorchbug Powder": {
+"tier": 4,
+"image": null
+},
+"Dense Originium Powder": {
+"tier": 3,
+"image": null
+},
+"Dense Carbon Powder": {
+"tier": 3,
+"image": null
+},
+"Dense Origocrust Powder": {
+"tier": 3,
+"image": null
+},
+"Cryston Powder": {
+"tier": 3,
+"image": null
+},
+"Dense Ferrium Powder": {
+"tier": 3,
+"image": null
+},
+"Ground Buckflower Powder": {
+"tier": 3,
+"image": null
+},
+"Ground Citrome Powder": {
+"tier": 3,
+"image": null
+},
+"Stabilized Carbon": {
+"tier": 3,
+"image": null
+},
+"Packed Origocrust": {
+"tier": 3,
+"image": null
+},
+"Cryston Fiber": {
+"tier": 3,
+"image": null
+},
+"Steel": {
+"tier": 3,
+"image": null
+},
+"Xircon": {
+"tier": 3,
+"image": null
+},
+"Heavy Xiranite": {
+"tier": 3,
+"image": null
+},
+"Hetonite": {
+"tier": 3,
+"image": null
+},
+"Amethyst Bottle": {
+"tier": 2,
+"image": null
+},
+"Cryston Bottle": {
+"tier": 3,
+"image": null
+},
+"Ferrium Bottle": {
+"tier": 2,
+"image": null
+},
+"Steel Bottle": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle": {
+"tier": 3,
+"image": null
+},
+"Jincao Solution": {
+"tier": 3,
+"image": null
+},
+"Yazhen Solution": {
+"tier": 3,
+"image": null
+},
+"Liquid Xiranite": {
+"tier": 3,
+"image": null
+},
+"Xircon Effluent": {
+"tier": 3,
+"image": null
+},
+"Inert Xircon Effluent": {
+"tier": 3,
+"image": null
+},
+"Sewage": {
+"tier": 3,
+"image": null
+},
+"Precipitation Acid": {
+"tier": 1,
+"image": null
+},
+"Liquid Heavy Xiranite": {
+"tier": 3,
+"image": null
+},
+"Cuprium Solution": {
+"tier": 3,
+"image": null
+},
+"Hetonite Solution": {
+"tier": 3,
+"image": null
+},
+"LC Valley Battery": {
+"tier": 3,
+"image": null
+},
+"SC Valley Battery": {
+"tier": 3,
+"image": null
+},
+"HC Valley Battery": {
+"tier": 4,
+"image": null
+},
+"LC Wuling Battery": {
+"tier": 4,
+"image": null
+},
+"SC Wuling Battery": {
+"tier": 4,
+"image": null
+},
+"Amethyst Part": {
+"tier": 2,
+"image": null
+},
+"Cryston Part": {
+"tier": 3,
+"image": null
+},
+"Ferrium Part": {
+"tier": 2,
+"image": null
+},
+"Steel Part": {
+"tier": 3,
+"image": null
+},
+"Cuprium Part": {
+"tier": 3,
+"image": null
+},
+"Hetonite Part": {
+"tier": 4,
+"image": null
+},
+"Amethyst Component": {
+"tier": 2,
+"image": null
+},
+"Ferrium Component": {
+"tier": 2,
+"image": null
+},
+"Cryston Component": {
+"tier": 3,
+"image": null
+},
+"Xiranite Component": {
+"tier": 4,
+"image": null
+},
+"Cuprium Component": {
+"tier": 4,
+"image": null
+},
+"Hetonite Component": {
+"tier": 4,
+"image": null
+},
+"Amethyst Bottle (Yazhen Solution)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Cuprium Solution)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Precipitation Acid)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Inert Xircon Effluent)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Clean Water)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Liquid Heavy Xiranite)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Liquid Xiranite)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Jincao Solution)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Xircon Effluent)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Hetonite Solution)": {
+"tier": 2,
+"image": null
+},
+"Amethyst Bottle (Sewage)": {
+"tier": 2,
+"image": null
+},
+"Cryston Bottle (Yazhen Solution)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Cuprium Solution)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Precipitation Acid)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Inert Xircon Effluent)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Clean Water)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Liquid Heavy Xiranite)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Liquid Xiranite)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Jincao Solution)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Xircon Effluent)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Hetonite Solution)": {
+"tier": 3,
+"image": null
+},
+"Cryston Bottle (Sewage)": {
+"tier": 3,
+"image": null
+},
+"Ferrium Bottle (Yazhen Solution)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Cuprium Solution)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Precipitation Acid)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Inert Xircon Effluent)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Clean Water)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Liquid Heavy Xiranite)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Liquid Xiranite)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Jincao Solution)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Xircon Effluent)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Hetonite Solution)": {
+"tier": 2,
+"image": null
+},
+"Ferrium Bottle (Sewage)": {
+"tier": 2,
+"image": null
+},
+"Steel Bottle (Yazhen Solution)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Cuprium Solution)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Precipitation Acid)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Inert Xircon Effluent)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Clean Water)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Liquid Heavy Xiranite)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Liquid Xiranite)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Jincao Solution)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Xircon Effluent)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Hetonite Solution)": {
+"tier": 3,
+"image": null
+},
+"Steel Bottle (Sewage)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Yazhen Solution)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Cuprium Solution)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Precipitation Acid)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Inert Xircon Effluent)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Clean Water)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Liquid Heavy Xiranite)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Liquid Xiranite)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Jincao Solution)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Xircon Effluent)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Hetonite Solution)": {
+"tier": 3,
+"image": null
+},
+"Cuprium Bottle (Sewage)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Yazhen Solution)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Cuprium Solution)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Precipitation Acid)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Inert Xircon Effluent)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Clean Water)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Liquid Heavy Xiranite)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Liquid Xiranite)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Jincao Solution)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Xircon Effluent)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Hetonite Solution)": {
+"tier": 3,
+"image": null
+},
+"Hetonite Bottle (Sewage)": {
+"tier": 3,
+"image": null
+},
+"Experimental Xiranite Bottle": {
+"tier": 3,
+"image": null
+},
+"Experimental Xiranite Part": {
+"tier": 3,
+"image": null
+},
+"Experimental Heavy Xiranite Bottle": {
+"tier": 4,
+"image": null
+},
+"Experimental Heavy Xiranite Part": {
+"tier": 4,
+"image": null
+},
+"Experimental Xiran-Hue Atomizer": {
+"tier": 4,
+"image": null
+},
+"Xiranite Gourd": {
+"tier": 4,
+"image": null
+},
+"Xiranite Jade Gourd": {
+"tier": 5,
+"image": null
+},
+"Experimental Heavy Xiranite Bottle (Yazhen Solution)": {
+"tier": 4,
+"image": null
+},
+"Elementary Combat Record": {
+"tier": 1,
+"image": null
+},
+"Intermediate Combat Record": {
+"tier": 2,
+"image": null
+},
+"Advanced Combat Record": {
+"tier": 3,
+"image": null
+},
+"Elementary Cognitive Carrier": {
+"tier": 4,
+"image": null
+},
+"Advanced Cognitive Carrier": {
+"tier": 5,
+"image": null
+},
+"Protodisk": {
+"tier": 3,
+"image": null
+},
+"Protoset": {
+"tier": 4,
+"image": null
+},
+"Protoprism": {
+"tier": 3,
+"image": null
+},
+"Protohedron": {
+"tier": 4,
+"image": null
+},
+"Proto-Extract": {
+"tier": 5,
+"image": null
+},
+"Arms Inspector": {
+"tier": 2,
+"image": null
+},
+"Arms INSP Kit": {
+"tier": 3,
+"image": null
+},
+"Arms INSP Set": {
+"tier": 4,
+"image": null
+},
+"Cast Die": {
+"tier": 3,
+"image": null
+},
+"Heavy Cast Die": {
+"tier": 4,
+"image": null
+},
+"Metadiastima Photoemission Tube": {
+"tier": 5,
+"image": null
+},
+"D96 Steel Sample 4": {
+"tier": 5,
+"image": null
+},
+"Tachyon Screening Lattice": {
+"tier": 5,
+"image": null
+},
+"Quadrant Fitting Fluid": {
+"tier": 5,
+"image": null
+},
+"Triphasic Nanoflake": {
+"tier": 5,
+"image": null
+},
+"Mark of Perseverance": {
+"tier": 5,
+"image": null
+},
+"Pink Bolete": {
+"tier": 4,
+"image": null
+},
+"Red Bolete": {
+"tier": 4,
+"image": null
+},
+"Ruby Bolete": {
+"tier": 4,
+"image": null
+},
+"Bloodcap": {
+"tier": 5,
+"image": null
+},
+"Cosmagaric": {
+"tier": 5,
+"image": null
+},
+"Kalkodendra": {
+"tier": 4,
+"image": null
+},
+"Chrysodendra": {
+"tier": 4,
+"image": null
+},
+"Vitrodendra": {
+"tier": 4,
+"image": null
+},
+"Blighted Jadeleaf": {
+"tier": 5,
+"image": null
+},
+"False Aggela": {
+"tier": 5,
+"image": null
+},
+"Kalkonyx": {
+"tier": 4,
+"image": null
+},
+"Auronyx": {
+"tier": 4,
+"image": null
+},
+"Umbronyx": {
+"tier": 4,
+"image": null
+},
+"Igneosite": {
+"tier": 5,
+"image": null
+},
+"Wulingstone": {
+"tier": 5,
+"image": null
+},
+"Hard Aggagrit": {
+"tier": 1,
+"image": null
+},
+"Energized Aggagrit": {
+"tier": 1,
+"image": null
+},
+"Powdered Grass Seed": {
+"tier": 1,
+"image": null
+},
+"Pungent Jerky": {
+"tier": 1,
+"image": null
+},
+"Young Bamboo Sprout": {
+"tier": 1,
+"image": null
+},
+"Fillet": {
+"tier": 1,
+"image": null
+},
+"Slug Meat": {
+"tier": 1,
+"image": null
+},
+"Bitter Flour": {
+"tier": 1,
+"image": null
+},
+"Hollow Aggagrit": {
+"tier": 1,
+"image": null
+},
+"Resilient Water": {
+"tier": 1,
+"image": null
+},
+"Natural Sparkling Water": {
+"tier": 1,
+"image": null
+},
+"Waterlamp Glowbulb": {
+"tier": 1,
+"image": null
+},
+"Nidwyrm Whiskers": {
+"tier": 2,
+"image": null
+},
+"Cartilage Bit": {
+"tier": 2,
+"image": null
+},
+"Chromatic Lipids": {
+"tier": 2,
+"image": null
+},
+"Grovenymph Pupa": {
+"tier": 2,
+"image": null
+},
+"Black Treacle": {
+"tier": 2,
+"image": null
+},
+"Quillbeast Liver": {
+"tier": 2,
+"image": null
+},
+"Shattered Axe Blade": {
+"tier": 4,
+"image": null
+},
+"Haze-Soaked Ballista": {
+"tier": 4,
+"image": null
+},
+"Conductive Effigy Stone": {
+"tier": 4,
+"image": null
+},
+"Qingbo Bamboo Chimes": {
+"tier": 4,
+"image": null
+},
+"Axehorn": {
+"tier": 4,
+"image": null
+},
+"Siegeknuckles Gauntlets": {
+"tier": 4,
+"image": null
+},
+"Rakerbeast Longfur": {
+"tier": 4,
+"image": null
+},
+"Natural Chrysopolis Ingot": {
+"tier": 5,
+"image": null
+},
+"Instant Vintage": {
+"tier": 5,
+"image": null
+},
+"Howlerbeast Braid": {
+"tier": 5,
+"image": null
+},
+"Echoing Dust": {
+"tier": 1,
+"image": null
+},
+"Century Rind": {
+"tier": 1,
+"image": null
+},
+"Caudal Goldscale": {
+"tier": 4,
+"image": null
+},
+"Originium Ore": {
+"tier": 1,
+"image": null
+},
+"Amethyst Ore": {
+"tier": 1,
+"image": null
+},
+"Ferrium Ore": {
+"tier": 1,
+"image": null
+},
+"Cuprium Ore": {
+"tier": 1,
+"image": null
+},
+"Clean Water": {
+"tier": 1,
+"image": null
+},
+"Buckflower": {
+"tier": 1,
+"image": null
+},
+"Buckflower Seed": {
+"tier": 1,
+"image": null
+},
+"Firebuckle": {
+"tier": 2,
+"image": null
+},
+"Citrome": {
+"tier": 1,
+"image": null
+},
+"Citrome Seed": {
+"tier": 1,
+"image": null
+},
+"Umbraline": {
+"tier": 2,
+"image": null
+},
+"Sandleaf": {
+"tier": 1,
+"image": null
+},
+"Sandleaf Seed": {
+"tier": 1,
+"image": null
+},
+"Aketine": {
+"tier": 1,
+"image": null
+},
+"Aketine Seed": {
+"tier": 1,
+"image": null
+},
+"Jincao": {
+"tier": 1,
+"image": null
+},
+"Jincao Seed": {
+"tier": 1,
+"image": null
+},
+"Yazhen": {
+"tier": 1,
+"image": null
+},
+"Yazhen Seed": {
+"tier": 1,
+"image": null
+},
+"Fluffed Jincao": {
+"tier": 2,
+"image": null
+},
+"Thorny Yazhen": {
+"tier": 2,
+"image": null
+},
+"Reed Rye": {
+"tier": 2,
+"image": null
+},
+"Tartpepper": {
+"tier": 2,
+"image": null
+},
+"Redjade Ginseng": {
+"tier": 2,
+"image": null
+},
+"Amber Rice": {
+"tier": 2,
+"image": null
+},
+"Reed Rye Seed": {
+"tier": 2,
+"image": null
+},
+"Tartpepper Seed": {
+"tier": 2,
+"image": null
+},
+"Redjade Ginseng Seed": {
+"tier": 2,
+"image": null
+},
+"Amber Rice Seed": {
+"tier": 2,
+"image": null
+},
+"Wood": {
+"tier": 1,
+"image": null
+},
+"Glowbug": {
+"tier": 2,
+"image": null
+},
+"Scorchbug": {
+"tier": 3,
+"image": null
+},
+"Burdo-Muck": {
+"tier": 1,
+"image": null
+},
+"Bumper-Rich": {
+"tier": 3,
+"image": null
+},
+"Pink Bolete Mycelia": {
+"tier": 4,
+"image": null
+},
+"Red Bolete Mycelia": {
+"tier": 4,
+"image": null
+},
+"Ruby Bolete Mycelia": {
+"tier": 4,
+"image": null
+},
+"Bloodcap Mycelia": {
+"tier": 5,
+"image": null
+},
+"Cosmagaric Mycelia": {
+"tier": 5,
+"image": null
+},
+"Kalkodendra Tuber": {
+"tier": 4,
+"image": null
+},
+"Chrysodendra Tuber": {
+"tier": 4,
+"image": null
+},
+"Vitrodendra Tuber": {
+"tier": 4,
+"image": null
+},
+"Blighted Jadeleaf Tuber": {
+"tier": 5,
+"image": null
+},
+"False Aggela Tuber": {
+"tier": 5,
+"image": null
+},
+"Kalkonyx Seed": {
+"tier": 4,
+"image": null
+},
+"Auronyx Seed": {
+"tier": 4,
+"image": null
+},
+"Umbronyx Seed": {
+"tier": 4,
+"image": null
+},
+"Igneosite Seed": {
+"tier": 5,
+"image": null
+},
+"Wulingstone Seed": {
+"tier": 5,
+"image": null
+},
+"Buckflower Powder": {
+"tier": 2,
+"image": null
+},
+"Citrome Powder": {
+"tier": 2,
+"image": null
+},
+"Firebuckle Powder": {
+"tier": 3,
+"image": null
+},
+"Citromix": {
+"tier": 3,
+"image": null
+},
+"Jincao Powder": {
+"tier": 2,
+"image": null
+},
+"Yazhen Powder": {
+"tier": 2,
+"image": null
+},
+"Fluffed Jincao Powder": {
+"tier": 3,
+"image": null
+},
+"Thorny Yazhen Powder": {
+"tier": 3,
+"image": null
+},
+"Canned Citrome (C)": {
+"tier": 3,
+"image": null
+},
+"Canned Citrome (B)": {
+"tier": 3,
+"image": null
+},
+"Canned Citrome (A)": {
+"tier": 4,
+"image": null
+},
+"Jincao Drink": {
+"tier": 3,
+"image": null
+},
+"Jincao Tea": {
+"tier": 4,
+"image": null
+},
+"Buck Capsule (C)": {
+"tier": 3,
+"image": null
+},
+"Buck Capsule (B)": {
+"tier": 3,
+"image": null
+},
+"Buck Capsule (A)": {
+"tier": 4,
+"image": null
+},
+"Yazhen Syringe (C)": {
+"tier": 3,
+"image": null
+},
+"Yazhen Syringe (A)": {
+"tier": 4,
+"image": null
+},
+"Buckpill (S)": {
+"tier": 4,
+"image": null
+},
+"Buckpill (L)": {
+"tier": 4,
+"image": null
+},
+"Buckpill (Rf.)": {
+"tier": 5,
+"image": null
+},
+"Citromix (S)": {
+"tier": 4,
+"image": null
+},
+"Citromix (L)": {
+"tier": 4,
+"image": null
+},
+"Citromix (Rf.)": {
+"tier": 5,
+"image": null
+},
+"Jincao Tisane": {
+"tier": 4,
+"image": null
+},
+"Jincao Infusion": {
+"tier": 5,
+"image": null
+},
+"Yazhen Spray (S)": {
+"tier": 4,
+"image": null
+},
+"Yazhen Spray (L)": {
+"tier": 5,
+"image": null
+},
+"Arts Vial": {
+"tier": 3,
+"image": null
+},
+"Bizarro Chili": {
+"tier": 4,
+"image": null
+},
+"Arts Tube": {
+"tier": 4,
+"image": null
+},
+"Garden Fried Rice": {
+"tier": 4,
+"image": null
+},
+"Master Pan's Egg Pudding": {
+"tier": 4,
+"image": null
+},
+"Valley Pie": {
+"tier": 5,
+"image": null
+},
+"Meat Stir-Fry": {
+"tier": 5,
+"image": null
+},
+"Meaty Buckflower Stew": {
+"tier": 2,
+"image": null
+},
+"Handmade Weirdrop": {
+"tier": 2,
+"image": null
+},
+"Seš'qa Style Fillet": {
+"tier": 2,
+"image": null
+},
+"Instant Bone Soup": {
+"tier": 2,
+"image": null
+},
+"Stew Meeting": {
+"tier": 2,
+"image": null
+},
+"Mini Honey Slugpudding": {
+"tier": 2,
+"image": null
+},
+"Kunst Vial": {
+"tier": 3,
+"image": null
+},
+"Sod-Turning Meat Soup": {
+"tier": 3,
+"image": null
+},
+"Cartilage Tack": {
+"tier": 3,
+"image": null
+},
+"Edible Denstack": {
+"tier": 3,
+"image": null
+},
+"Hazefyre Blossom": {
+"tier": 3,
+"image": null
+},
+"Old Man John's Burger": {
+"tier": 3,
+"image": null
+},
+"Cosmo-Melto Jelly": {
+"tier": 3,
+"image": null
+},
+"Superhot Slug Gratin": {
+"tier": 3,
+"image": null
+},
+"Secret Stimulating Tisane": {
+"tier": 3,
+"image": null
+},
+"Simple Pain Relief Salve": {
+"tier": 3,
+"image": null
+},
+"Mystery Soda": {
+"tier": 3,
+"image": null
+},
+"Mini Sugar Painting": {
+"tier": 3,
+"image": null
+},
+"Bamboo Sprouts and Meat": {
+"tier": 3,
+"image": null
+},
+"Perplexing Medication": {
+"tier": 4,
+"image": null
+},
+"Kunst Tube": {
+"tier": 4,
+"image": null
+},
+"Jakub's Legacy": {
+"tier": 4,
+"image": null
+},
+"Hub Emergency Ration": {
+"tier": 4,
+"image": null
+},
+"Superhot Fruit Preserves": {
+"tier": 4,
+"image": null
+},
+"Pulled Slug Meat": {
+"tier": 4,
+"image": null
+},
+"Fortifying Infusion": {
+"tier": 4,
+"image": null
+},
+"Chubby Lung Jellied Greens": {
+"tier": 4,
+"image": null
+},
+"Pan-Fried Double Crisp": {
+"tier": 4,
+"image": null
+},
+"Wuling Flame-Boyance": {
+"tier": 4,
+"image": null
+},
+"Simmered Xiranite Ball": {
+"tier": 4,
+"image": null
+},
+"Garden Stir-Fry": {
+"tier": 4,
+"image": null
+},
+"Ginseng Meat Stew": {
+"tier": 5,
+"image": null
+},
+"Wuling Fried Rice": {
+"tier": 5,
+"image": null
+},
+"Industrial Explosive": {
+"tier": 3,
+"image": null
+},
+"Echoing Remedy": {
+"tier": 3,
+"image": null
+},
+"Braised Meat Noodles": {
+"tier": 4,
+"image": null
+},
+"Rhodes Island Special Ration": {
+"tier": 5,
+"image": null
+},
+"Tian's Braised Meat Noodles": {
+"tier": 4,
+"image": null
+},
+"Rind-Flavored Sprouts": {
+"tier": 4,
+"image": null
+},
+"Connect-and-Win: Auspice": {
+"tier": 5,
+"image": "Connect-and-Win Auspice"
+},
+"Connect-and-Win: Luck": {
+"tier": 5,
+"image": "Connect-and-Win Luck"
+},
+"Essence Supply EX": {
+"tier": 5,
+"image": null
+},
+"Targeted Weapon Supply": {
+"tier": 5,
+"image": null
+},
+"Exchange Crate-o-Surprise (S)": {
+"tier": 3,
+"image": null
+},
+"Exchange Crate-o-Surprise (M)": {
+"tier": 4,
+"image": null
+},
+"Exchange Crate-o-Surprise (L)": {
+"tier": 5,
+"image": null
+},
+"New Horizons Weapon Supply": {
+"tier": 6,
+"image": null
+},
+"Curated Weapon Supply": {
+"tier": 6,
+"image": null
+},
+"Weapon Supply: Awakening": {
+"tier": 6,
+"image": "Weapon Supply Awakening"
+},
+"Multi-Purpose EXP Selection Crate": {
+"tier": 5,
+"image": null
+},
+"Multi-Purpose Breakthrough Selection Crate": {
+"tier": 5,
+"image": null
+},
+"Skill Up Selection Crate": {
+"tier": 5,
+"image": null
+},
+"Advanced Progression Selection Crate Ⅰ": {
+"tier": 5,
+"image": null
+},
+"Weapon Supply: Dark Currents": {
+"tier": 6,
+"image": "Weapon Supply Dark Currents"
+},
+"Weapon Supply: Wrothful Tide": {
+"tier": 6,
+"image": "Weapon Supply Wrothful Tide"
+},
+"Cycling Crate-o-Surprise (M)": {
+"tier": 4,
+"image": "Cycling Crate-o-Surprise (M)"
+},
+"Cycling Crate-o-Surprise (L)": {
+"tier": 5,
+"image": "Cycling Crate-o-Surprise (L)"
+},
+"Weapon Supply: Viridian Mont": {
+"tier": 6,
+"image": "Weapon Supply Viridian Mont"
+},
+"Arms OC: Smelting Forge": {
+"tier": 6,
+"image": "Arms OC Smelting Forge"
+},
+"Arms OC: Graffiti": {
+"tier": 6,
+"image": "Arms OC Graffiti"
+},
+"Arms OC: Express Delivery": {
+"tier": 6,
+"image": "Arms OC Express Delivery"
+},
+"Arms OC: Solid Ice": {
+"tier": 6,
+"image": "Arms OC Solid Ice"
+},
+"Arms OC: Cosmic Voice": {
+"tier": 6,
+"image": "Arms OC Cosmic Voice"
+},
+"Arms OC: Far Expedition": {
+"tier": 6,
+"image": "Arms OC Far Expedition"
+},
+"Arms OC: Rising Mount": {
+"tier": 6,
+"image": "Arms OC Rising Mount"
+},
+"Arms OC: Thunderous Peal": {
+"tier": 6,
+"image": "Arms OC Thunderous Peal"
+},
+"Arms OC: Scarlet Knot": {
+"tier": 6,
+"image": "Arms OC Scarlet Knot"
+},
+"Designation Selection Permit": {
+"tier": 6,
+"image": null
+},
+"Shimmering Moment Designation Permit": {
+"tier": 6,
+"image": null
+},
+"Shimmering Moment Token Supply": {
+"tier": 6,
+"image": null
+},
+"Aerospace Material I": {
+"tier": 3,
+"image": null
+},
+"Aerospace Material II": {
+"tier": 4,
+"image": null
+},
+"Basic AIC Index": {
+"tier": 4,
+"image": null
+},
+"Wuling AIC Index": {
+"tier": 4,
+"image": null
+},
+"Operational EXP": {
+"tier": 5,
+"image": null
+},
+"Daily Activity": {
+"tier": 1,
+"image": null
+},
+"Stamina Delimiter": {
+"tier": 1,
+"image": null
+},
+"Outpost Prosperity": {
+"tier": 4,
+"image": null
+},
+"Keen Valley Compass": {
+"tier": 5,
+"image": null
+},
+"Keen Valley Detector": {
+"tier": 5,
+"image": null
+},
+"Keen Wuling Compass": {
+"tier": 5,
+"image": null
+},
+"Keen Wuling Detector": {
+"tier": 5,
+"image": null
+},
+"Valley Regional Development Metric": {
+"tier": 5,
+"image": null
+},
+"Wuling Regional Development Metric": {
+"tier": 5,
+"image": null
+},
+"Combat Facilities Capacity": {
+"tier": 5,
+"image": null
+},
+"Pass Experience": {
+"tier": 5,
+"image": null
+},
+"Pass Application: Originium": {
+"tier": 6,
+"image": null
+},
+"Access Pass Application: Customized": {
+"tier": 6,
+"image": null
+},
+"Protocolized Weapon Pattern": {
+"tier": 6,
+"image": null
+},
+"Monthly Pass Exchange Cert": {
+"tier": 6,
+"image": null
+},
+"Rested Offensive": {
+"tier": 1,
+"image": null
+},
+"Rested Defensive": {
+"tier": 1,
+"image": null
+},
+"Productive Hunting": {
+"tier": 1,
+"image": null
+},
+"Outdoors Expert": {
+"tier": 1,
+"image": null
+},
+"Medical Reserves": {
+"tier": 1,
+"image": null
+},
+"Full Vigor": {
+"tier": 1,
+"image": null
+},
+"Mr. Rammu": {
+"tier": 5,
+"image": null
+},
+"Arc 2000 Model": {
+"tier": 5,
+"image": null
+},
+"Champion Drill Crawler": {
+"tier": 5,
+"image": null
+},
+"Bonsai of Life": {
+"tier": 5,
+"image": null
+},
+"Tianshi Pillar Model": {
+"tier": 5,
+"image": null
+},
+"Qiming Station Model": {
+"tier": 5,
+"image": null
+},
+"Deluxe Chubby Lung": {
+"tier": 5,
+"image": null
+},
+"Companions Figurine": {
+"tier": 5,
+"image": null
+},
+"Onboarding Essentials for Endfield Operators — Aggeloi (Item)": {
+"tier": 5,
+"image": "Finding Old Book"
+},
+"Notes: Amateur Scientist (Item)": {
+"tier": 5,
+"image": "Finding Note"
+},
+"Emergency Broadcast Log (Item)": {
+"tier": 5,
+"image": "Finding Note"
+},
+"Training Material: Dangerous Wildlife and Aggeloi (Item)": {
+"tier": 5,
+"image": "Finding Document"
+},
+"Bounties from the Aggeloi (Issue 15) (Item)": {
+"tier": 5,
+"image": "Finding Expensive Book"
+},
+"Tastes of V4: Workers' Borscht (Item)": {
+"tier": 5,
+"image": "Finding Notebook"
+},
+"Old Pamphlet: Recycling Tips (Item)": {
+"tier": 5,
+"image": "Finding News"
+},
+"Recycling Guide (Item)": {
+"tier": 5,
+"image": "Finding Expensive Book"
+},
+"Fertilizer Formula Flyer (Item)": {
+"tier": 5,
+"image": "Finding Note"
+},
+"Reeves Weekly: Band News Section (Item)": {
+"tier": 5,
+"image": "Finding News"
+},
+"V4 Worker's Guide: Aburrey Quarry (Item)": {
+"tier": 5,
+"image": "Finding Expensive Book"
+},
+"Memoirs: A Peddler (1)": {
+"tier": 5,
+"image": "Finding Note"
+},
+"Memoirs: A Peddler (2)": {
+"tier": 5,
+"image": "Finding Note"
+},
+"Power": {
+"tier": 1,
+"image": "Power_icon"
+},
+"T-Creds": {
+"tier": 4,
+"image": null
+},
+"Oroberyl": {
+"tier": 6,
+"image": null
+},
+"Origeometry": {
+"tier": 6,
+"image": null
+},
+"Credits": {
+"tier": 4,
+"image": null
+},
+"AIC Quota": {
+"tier": 4,
+"image": null
+},
+"Bond Quota": {
+"tier": 5,
+"image": null
+},
+"Endpoint Quota": {
+"tier": 6,
+"image": null
+},
+"Arsenal Ticket": {
+"tier": 6,
+"image": null
+},
+"Valley Stock Bill": {
+"tier": 5,
+"image": null
+},
+"Wuling Stock Bill": {
+"tier": 5,
+"image": null
+},
+"Wuling Artificing Catalyst": {
+"tier": 5,
+"image": null
+},
+"Valley Engraving Permit": {
+"tier": 5,
+"image": null
+},
+"Wuling Engraving Permit": {
+"tier": 5,
+"image": null
+},
+"Coolant Gel": {
+"tier": 5,
+"image": null
+},
+"Sanity Usage Permit": {
+"tier": 4,
+"image": null
+},
+"Vitrified Coin": {
+"tier": 5,
+"image": null
+},
+"Portable Originium Rig": {
+"tier": 1,
+"image": null
+},
+"Electric Mining Rig": {
+"tier": 2,
+"image": null
+},
+"Electric Mining Rig Mk II": {
+"tier": 3,
+"image": null
+},
+"Hydro Mining Rig": {
+"tier": 3,
+"image": null
+},
+"Fluid Pump": {
+"tier": 2,
+"image": null
+},
+"Acid Resistant Pump Mk II": {
+"tier": 3,
+"image": null
+},
+"Protocol Stash": {
+"tier": 1,
+"image": null
+},
+"Depot Loader": {
+"tier": 3,
+"image": null
+},
+"Depot Unloader": {
+"tier": 3,
+"image": null
+},
+"Depot Bus Section": {
+"tier": 4,
+"image": null
+},
+"Depot Bus Port": {
+"tier": 4,
+"image": null
+},
+"Fluid Tank": {
+"tier": 2,
+"image": null
+},
+"Conduit Inlet": {
+"tier": 3,
+"image": null
+},
+"Conduit Outlet": {
+"tier": 3,
+"image": null
+},
+"Conduit Inlet Manifold": {
+"tier": 4,
+"image": null
+},
+"Conduit Outlet Manifold": {
+"tier": 4,
+"image": null
+},
+"Refining Unit": {
+"tier": 1,
+"image": null
+},
+"Refining Unit (Self-Powered)": {
+"tier": 1,
+"image": null
+},
+"Shredding Unit": {
+"tier": 1,
+"image": null
+},
+"Fitting Unit": {
+"tier": 2,
+"image": null
+},
+"Moulding Unit": {
+"tier": 2,
+"image": null
+},
+"Seed-Picking Unit": {
+"tier": 3,
+"image": null
+},
+"Planting Unit": {
+"tier": 3,
+"image": null
+},
+"Water Treatment Unit": {
+"tier": 3,
+"image": null
+},
+"Filling Unit": {
+"tier": 3,
+"image": null
+},
+"Gearing Unit": {
+"tier": 1,
+"image": null
+},
+"Packaging Unit": {
+"tier": 3,
+"image": null
+},
+"Grinding Unit": {
+"tier": 4,
+"image": null
+},
+"Reactor Crucible": {
+"tier": 3,
+"image": null
+},
+"Forge of the Sky": {
+"tier": 4,
+"image": null
+},
+"Separating Unit": {
+"tier": 3,
+"image": null
+},
+"Expanded Crucible": {
+"tier": 3,
+"image": null
+},
+"Purification Unit": {
+"tier": 4,
+"image": null
+},
+"Transport Belt": {
+"tier": 1,
+"image": null
+},
+"Belt Bridge": {
+"tier": 2,
+"image": null
+},
+"Splitter": {
+"tier": 2,
+"image": null
+},
+"Converger": {
+"tier": 2,
+"image": null
+},
+"Item Control Port": {
+"tier": 2,
+"image": null
+},
+"Pipe": {
+"tier": 1,
+"image": null
+},
+"Pipe Bridge": {
+"tier": 2,
+"image": null
+},
+"Pipe Splitter": {
+"tier": 2,
+"image": null
+},
+"Pipe Converger": {
+"tier": 2,
+"image": null
+},
+"Pipe Control Port": {
+"tier": 2,
+"image": null
+},
+"Thermal Bank": {
+"tier": 2,
+"image": null
+},
+"Electric Pylon": {
+"tier": 1,
+"image": null
+},
+"Xiranite Pylon": {
+"tier": 1,
+"image": null
+},
+"Relay Tower": {
+"tier": 1,
+"image": null
+},
+"Xiranite Relay": {
+"tier": 1,
+"image": null
+},
+"Zipline Pylon": {
+"tier": 2,
+"image": null
+},
+"Zipline Tower": {
+"tier": 4,
+"image": null
+},
+"Memo Beacon": {
+"tier": 2,
+"image": null
+},
+"Easy Stash": {
+"tier": 2,
+"image": null
+},
+"Sprinkler": {
+"tier": 3,
+"image": null
+},
+"Fluid Supply Unit": {
+"tier": 3,
+"image": null
+},
+"Medical Tower": {
+"tier": 1,
+"image": null
+},
+"Gun Tower": {
+"tier": 1,
+"image": null
+},
+"Grenade Tower": {
+"tier": 2,
+"image": null
+},
+"LN Tower": {
+"tier": 2,
+"image": null
+},
+"Heavy Gun Tower": {
+"tier": 3,
+"image": null
+},
+"Omnidirectional Sonic Tower": {
+"tier": 3,
+"image": null
+},
+"Surge Tower": {
+"tier": 4,
+"image": null
+},
+"HE Grenade Tower": {
+"tier": 4,
+"image": null
+},
+"Sentry Tower": {
+"tier": 4,
+"image": null
+},
+"Beam Tower": {
+"tier": 4,
+"image": null
+},
+"Marsh Gas Mk I": {
+"tier": 4,
+"image": null
+},
+"Deluge Tower": {
+"tier": 4,
+"image": null
+},
+"AF1 Armor Fragger": {
+"tier": 5,
+"image": null
+},
+"Sledgehammer Mortar": {
+"tier": 5,
+"image": null
+},
+"Hyper Beam Tower": {
+"tier": 5,
+"image": null
+},
+"Acid Soaker Mk I": {
+"tier": 5,
+"image": null
+},
+"Buckflower Plot": {
+"tier": 2,
+"image": null
+},
+"Citrome Plot": {
+"tier": 2,
+"image": null
+},
+"Sandleaf Plot": {
+"tier": 2,
+"image": null
+},
+"Aketine Plot": {
+"tier": 2,
+"image": null
+},
+"Jincao Plot": {
+"tier": 2,
+"image": null
+},
+"Yazhen Plot": {
+"tier": 2,
+"image": null
+},
+"Reed Rye Plot": {
+"tier": 3,
+"image": null
+},
+"Tartpepper Plot": {
+"tier": 3,
+"image": null
+},
+"Redjade Ginseng Plot": {
+"tier": 3,
+"image": null
+},
+"Amber Rice Plot": {
+"tier": 3,
+"image": null
+},
+"Chubby Lung Bollard": {
+"tier": 5,
+"image": null
+},
+"Tube Professor": {
+"tier": 5,
+"image": null
+},
+"Miniature Tree on a Hill": {
+"tier": 5,
+"image": null
+},
+"Tiger Cage": {
+"tier": 5,
+"image": null
+},
+"Chubby Lung Balloon": {
+"tier": 5,
+"image": null
+},
+"Sanguine Memories": {
+"tier": 5,
+"image": null
+},
+"Protocol Automation-Core (PAC)": {
+"tier": 5,
+"image": null
+},
+"Sub-PAC": {
+"tier": 5,
+"image": null
+},
+"Electric Nexus": {
+"tier": 2,
+"image": null
+},
+"Basic Armor": {
+"tier": 1,
+"image": null
+},
+"Basic PPE": {
+"tier": 1,
+"image": null
+},
+"Basic Gauntlets": {
+"tier": 1,
+"image": null
+},
+"Basic Gloves": {
+"tier": 1,
+"image": null
+},
+"Miner Overalls": {
+"tier": 2,
+"image": null
+},
+"Miner Armor": {
+"tier": 2,
+"image": null
+},
+"Miner Gloves": {
+"tier": 2,
+"image": null
+},
+"Miner Gauntlets": {
+"tier": 2,
+"image": null
+},
+"Emergency Compression Core": {
+"tier": 2,
+"image": null
+},
+"Emergency Comm": {
+"tier": 2,
+"image": null
+},
+"Prototype Heavy Armor": {
+"tier": 2,
+"image": null
+},
+"Prototype Heavy Armor T1": {
+"tier": 2,
+"image": null
+},
+"Miner Vest": {
+"tier": 2,
+"image": null
+},
+"Miner Cleansuit": {
+"tier": 2,
+"image": null
+},
+"Miner Wrists": {
+"tier": 2,
+"image": null
+},
+"Miner Fists": {
+"tier": 2,
+"image": null
+},
+"Miner Gauntlets T1": {
+"tier": 3,
+"image": null
+},
+"Miner Gloves T1": {
+"tier": 3,
+"image": null
+},
+"Miner Turbine": {
+"tier": 3,
+"image": null
+},
+"Miner Drive Wheel": {
+"tier": 3,
+"image": null
+},
+"Miner Compression Core": {
+"tier": 3,
+"image": null
+},
+"Miner Comm": {
+"tier": 3,
+"image": null
+},
+"Miner Armor T1": {
+"tier": 4,
+"image": null
+},
+"Miner Overalls T1": {
+"tier": 4,
+"image": null
+},
+"Miner Gloves T2": {
+"tier": 4,
+"image": null
+},
+"Miner Fists T1": {
+"tier": 4,
+"image": null
+},
+"Miner Turbine T1": {
+"tier": 4,
+"image": null
+},
+"Miner Compression Core T1": {
+"tier": 4,
+"image": null
+},
+"Miner Drive Wheel T1": {
+"tier": 4,
+"image": null
+},
+"Miner Comm T1": {
+"tier": 4,
+"image": null
+},
+"Redeemer Tag": {
+"tier": 5,
+"image": null
+},
+"Redeemer Tag T1": {
+"tier": 5,
+"image": null
+},
+"Redeemer Seal": {
+"tier": 5,
+"image": null
+},
+"Redeemer Seal T1": {
+"tier": 5,
+"image": null
+},
+"Redeemer Plates": {
+"tier": 5,
+"image": null
+},
+"Redeemer Armor": {
+"tier": 5,
+"image": null
+},
+"Redeemer Gloves": {
+"tier": 5,
+"image": null
+},
+"Redeemer Hands": {
+"tier": 5,
+"image": null
+},
+"AIC Heavy Armor": {
+"tier": 2,
+"image": null
+},
+"AIC Gauntlets": {
+"tier": 2,
+"image": null
+},
+"AIC Heavy Plate": {
+"tier": 2,
+"image": null
+},
+"AIC Alloy Plate": {
+"tier": 2,
+"image": null
+},
+"AIC Light Armor": {
+"tier": 2,
+"image": null
+},
+"AIC Tactical Gloves": {
+"tier": 2,
+"image": null
+},
+"AIC Light Plate": {
+"tier": 2,
+"image": null
+},
+"AIC Ceramic Plate": {
+"tier": 2,
+"image": null
+},
+"Armored MSGR Jacket": {
+"tier": 3,
+"image": null
+},
+"Armored MSGR Gloves": {
+"tier": 3,
+"image": null
+},
+"Armored MSGR Flashlight": {
+"tier": 3,
+"image": null
+},
+"Armored MSGR Gyro": {
+"tier": 3,
+"image": null
+},
+"Roving MSGR Jacket": {
+"tier": 3,
+"image": null
+},
+"Roving MSGR Fists": {
+"tier": 3,
+"image": null
+},
+"Roving MSGR Flashlight": {
+"tier": 3,
+"image": null
+},
+"Roving MSGR Gyro": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Vest": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Gloves": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Wrench": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Wrench T1": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Battery": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Resistant Vest": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Resistant Gloves": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Resistant Wrench": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Resistant Battery": {
+"tier": 3,
+"image": null
+},
+"Aburrey Heavy Armor": {
+"tier": 4,
+"image": null
+},
+"Aburrey Heavy Armor T1": {
+"tier": 4,
+"image": null
+},
+"Aburrey Light Armor": {
+"tier": 4,
+"image": null
+},
+"Aburrey Light Armor T1": {
+"tier": 4,
+"image": null
+},
+"Aburrey Gauntlets": {
+"tier": 4,
+"image": null
+},
+"Aburrey UV Lamp": {
+"tier": 4,
+"image": null
+},
+"Aburrey Flashlight": {
+"tier": 4,
+"image": null
+},
+"Aburrey Auditory Chip": {
+"tier": 4,
+"image": null
+},
+"Aburrey Auditory Chip T1": {
+"tier": 4,
+"image": null
+},
+"Aburrey Sensor Chip": {
+"tier": 4,
+"image": null
+},
+"Aburrey Sensor Chip T1": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Heavy Armor": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Heavy Armor T1": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Gloves": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Filter": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Gauze Cartridge": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Gauze Cartridge T1": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Jacket T1": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Gloves T1": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Gloves T2": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Flashlight T1": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Gyro T1": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Jacket T1": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Fists T1": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Flashlight T1": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Flashlight T2": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Gyro T1": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Vest T1": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Vest T2": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Gloves T1": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Wrench T2": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Battery T1": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Resistant Vest T1": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Resistant Gloves T1": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Resistant Wrench T1": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Resistant Battery T1": {
+"tier": 4,
+"image": null
+},
+"Swordmancer Light Armor": {
+"tier": 5,
+"image": null
+},
+"Swordmancer Heavy Armor": {
+"tier": 5,
+"image": null
+},
+"Swordmancer Heavy Armor T1": {
+"tier": 5,
+"image": null
+},
+"Swordmancer Fiber Armor": {
+"tier": 5,
+"image": null
+},
+"Swordmancer TAC Gauntlets": {
+"tier": 5,
+"image": null
+},
+"Swordmancer TAC Gauntlets T1": {
+"tier": 5,
+"image": null
+},
+"Swordmancer TAC Gloves": {
+"tier": 5,
+"image": null
+},
+"Swordmancer Flint": {
+"tier": 5,
+"image": null
+},
+"Swordmancer Dagger": {
+"tier": 5,
+"image": null
+},
+"Swordmancer NAV Beacon": {
+"tier": 5,
+"image": null
+},
+"Swordmancer Micro Filter": {
+"tier": 5,
+"image": null
+},
+"LYNX Heavy Armor": {
+"tier": 5,
+"image": null
+},
+"LYNX Cuirass": {
+"tier": 5,
+"image": null
+},
+"LYNX Gloves": {
+"tier": 5,
+"image": null
+},
+"LYNX Gauntlets": {
+"tier": 5,
+"image": null
+},
+"LYNX Connector": {
+"tier": 5,
+"image": null
+},
+"LYNX Connector T1": {
+"tier": 5,
+"image": null
+},
+"LYNX Connector T2": {
+"tier": 5,
+"image": null
+},
+"LYNX Slab": {
+"tier": 5,
+"image": null
+},
+"LYNX Aegis Injector": {
+"tier": 5,
+"image": null
+},
+"Æthertech Plating": {
+"tier": 5,
+"image": null
+},
+"Æthertech Gloves": {
+"tier": 5,
+"image": null
+},
+"Æthertech Light Gloves": {
+"tier": 5,
+"image": null
+},
+"Æthertech Analysis Band": {
+"tier": 5,
+"image": null
+},
+"Æthertech Stabilizer": {
+"tier": 5,
+"image": null
+},
+"Æthertech Stabilizer T1": {
+"tier": 5,
+"image": null
+},
+"Æthertech Watch": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Heavy Armor": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Heavy Armor T1": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Heavy Armor T2": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Poncho": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Poncho T1": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Mask": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Mask T1": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Figurine": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Figurine T1": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Figurine T2": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Gloves": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Wristband": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Wristband T1": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Disruptor Suit": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Gloves": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Calibrator": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Probe": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Invasion Core": {
+"tier": 5,
+"image": null
+},
+"Frontiers Armor": {
+"tier": 5,
+"image": null
+},
+"Frontiers Armor T1": {
+"tier": 5,
+"image": null
+},
+"Frontiers Armor T2": {
+"tier": 5,
+"image": null
+},
+"Frontiers Armor T3": {
+"tier": 5,
+"image": null
+},
+"Frontiers Blight RES Gloves": {
+"tier": 5,
+"image": null
+},
+"Frontiers Fiber Gloves": {
+"tier": 5,
+"image": null
+},
+"Frontiers Fiber Gloves T1": {
+"tier": 5,
+"image": null
+},
+"Frontiers Comm": {
+"tier": 5,
+"image": null
+},
+"Frontiers Comm T1": {
+"tier": 5,
+"image": null
+},
+"Frontiers Analyzer": {
+"tier": 5,
+"image": null
+},
+"Frontiers O2 Tube": {
+"tier": 5,
+"image": null
+},
+"Frontiers Extra O2 Tube": {
+"tier": 5,
+"image": null
+},
+"Frontiers Extra O2 Tube T1": {
+"tier": 5,
+"image": null
+},
+"Hot Work Exoskeleton": {
+"tier": 5,
+"image": null
+},
+"Hot Work Exo-Rig": {
+"tier": 5,
+"image": null
+},
+"Hot Work Gauntlets": {
+"tier": 5,
+"image": null
+},
+"Hot Work Gauntlets T1": {
+"tier": 5,
+"image": null
+},
+"Hot Work Gloves": {
+"tier": 5,
+"image": null
+},
+"Hot Work Pyrometer": {
+"tier": 5,
+"image": null
+},
+"Hot Work Power Bank": {
+"tier": 5,
+"image": null
+},
+"Hot Work Power Cartridge": {
+"tier": 5,
+"image": null
+},
+"MI Security Armor": {
+"tier": 5,
+"image": null
+},
+"MI Security Armor T1": {
+"tier": 5,
+"image": null
+},
+"MI Security Overalls": {
+"tier": 5,
+"image": null
+},
+"MI Security Overalls T1": {
+"tier": 5,
+"image": null
+},
+"MI Security Overalls T2": {
+"tier": 5,
+"image": null
+},
+"MI Security Gloves": {
+"tier": 5,
+"image": null
+},
+"MI Security Gloves T1": {
+"tier": 5,
+"image": null
+},
+"MI Security Hands PPE": {
+"tier": 5,
+"image": null
+},
+"MI Security Hands PPE T1": {
+"tier": 5,
+"image": null
+},
+"MI Security Armband": {
+"tier": 5,
+"image": null
+},
+"MI Security Scope": {
+"tier": 5,
+"image": null
+},
+"MI Security Scope T1": {
+"tier": 5,
+"image": null
+},
+"MI Security Toolkit": {
+"tier": 5,
+"image": null
+},
+"MI Security Push Knife": {
+"tier": 5,
+"image": null
+},
+"MI Security Push Knife T1": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Heavy Armor": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Heavy Armor T1": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Heavy Armor T2": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Light Armor": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Gloves": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Gloves T1": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Knife": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Knife T1": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Radar": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Radar T1": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Radar T2": {
+"tier": 5,
+"image": null
+},
+"Tide Fall Light Armor": {
+"tier": 5,
+"image": null
+},
+"Tide Surge Gauntlets": {
+"tier": 5,
+"image": null
+},
+"Hanging River O2 Tube": {
+"tier": 5,
+"image": null
+},
+"Turbid Cutting Torch": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Armor": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Gloves": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Gloves T1": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Power Core": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Power Core T1": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Auxiliary Arm": {
+"tier": 5,
+"image": null
+},
+"Qingbo Light Armor": {
+"tier": 5,
+"image": null
+},
+"Qingbo Heavy Armor": {
+"tier": 5,
+"image": null
+},
+"Qingbo Gauntlets": {
+"tier": 5,
+"image": null
+},
+"Qingbo Gloves": {
+"tier": 5,
+"image": null
+},
+"Qingbo Bamboo Cutter": {
+"tier": 5,
+"image": null
+},
+"Qingbo Cask": {
+"tier": 5,
+"image": null
+},
+"Qingbo Positioning Kit": {
+"tier": 5,
+"image": null
+},
+"Qingbo Positioning Kit T1": {
+"tier": 5,
+"image": null
+},
+"Xiranflow Light Armor": {
+"tier": 5,
+"image": null
+},
+"Xiranflow Gloves": {
+"tier": 5,
+"image": null
+},
+"Xiranflow Baton": {
+"tier": 5,
+"image": null
+},
+"Grizzled Edge Armor": {
+"tier": 5,
+"image": null
+},
+"Grizzled Edge Armor T1": {
+"tier": 5,
+"image": null
+},
+"Grizzled Edge Gauntlets": {
+"tier": 5,
+"image": null
+},
+"Grizzled Edge Gauntlets T1": {
+"tier": 5,
+"image": null
+},
+"Grizzled Edge Push Knife": {
+"tier": 5,
+"image": null
+},
+"Grizzled Edge Push Knife T1": {
+"tier": 5,
+"image": null
+},
+"Portable Originium Rig Template": {
+"tier": 1,
+"image": null
+},
+"Electric Mining Rig Template": {
+"tier": 2,
+"image": null
+},
+"Electric Mining Rig Mk II Template": {
+"tier": 3,
+"image": null
+},
+"Thermal Bank Template": {
+"tier": 2,
+"image": null
+},
+"Electric Pylon Template": {
+"tier": 1,
+"image": null
+},
+"Relay Tower Template": {
+"tier": 1,
+"image": null
+},
+"Refining Unit Template": {
+"tier": 1,
+"image": null
+},
+"Gearing Unit Template": {
+"tier": 1,
+"image": null
+},
+"Shredding Unit Template": {
+"tier": 1,
+"image": null
+},
+"Fitting Unit Template": {
+"tier": 2,
+"image": null
+},
+"Moulding Unit Template": {
+"tier": 2,
+"image": null
+},
+"Filling Unit Template": {
+"tier": 3,
+"image": null
+},
+"Packaging Unit Template": {
+"tier": 3,
+"image": null
+},
+"Planting Unit Template": {
+"tier": 3,
+"image": null
+},
+"Seed-Picking Unit Template": {
+"tier": 3,
+"image": null
+},
+"Depot Loader Template": {
+"tier": 3,
+"image": null
+},
+"Depot Unloader Template": {
+"tier": 3,
+"image": null
+},
+"Depot Loader/Unloader Template": {
+"tier": 3,
+"image": null
+},
+"Grinding Unit Template": {
+"tier": 4,
+"image": null
+},
+"Protocol Stash Template": {
+"tier": 1,
+"image": null
+},
+"Zipline Pylon Template": {
+"tier": 2,
+"image": null
+},
+"Zipline Tower Template": {
+"tier": 4,
+"image": null
+},
+"Easy Stash Template": {
+"tier": 2,
+"image": null
+},
+"Memo Beacon Template": {
+"tier": 2,
+"image": null
+},
+"Surge Tower Template": {
+"tier": 4,
+"image": null
+},
+"Grenade Tower Template": {
+"tier": 2,
+"image": null
+},
+"HE Grenade Tower Template": {
+"tier": 4,
+"image": null
+},
+"Gun Tower Template": {
+"tier": 1,
+"image": null
+},
+"Heavy Gun Tower Template": {
+"tier": 3,
+"image": null
+},
+"Medical Tower Template": {
+"tier": 1,
+"image": null
+},
+"Omnidirectional Sonic Tower Template": {
+"tier": 3,
+"image": null
+},
+"LN Tower Template": {
+"tier": 2,
+"image": null
+},
+"Sentry Tower Template": {
+"tier": 4,
+"image": null
+},
+"Beam Tower Template": {
+"tier": 4,
+"image": null
+},
+"Marsh Gas Mk I Template": {
+"tier": 4,
+"image": null
+},
+"Expansion I": {
+"tier": 5,
+"image": null
+},
+"Expansion II": {
+"tier": 5,
+"image": null
+},
+"Depot Bus I": {
+"tier": 5,
+"image": null
+},
+"Depot Bus II": {
+"tier": 5,
+"image": null
+},
+"Pylon Relaying": {
+"tier": 5,
+"image": null
+},
+"Relay Redistribution": {
+"tier": 5,
+"image": null
+},
+"Xiranite Pylon Template": {
+"tier": 2,
+"image": null
+},
+"Xiranite Relay Template": {
+"tier": 2,
+"image": null
+},
+"Fluid Pump Template": {
+"tier": 2,
+"image": null
+},
+"Acid Resistant Pump Mk II Template": {
+"tier": 3,
+"image": null
+},
+"Hydro Mining Rig Template": {
+"tier": 3,
+"image": null
+},
+"Reactor Crucible Template": {
+"tier": 3,
+"image": null
+},
+"Expanded Crucible Template": {
+"tier": 3,
+"image": null
+},
+"Reactor Crucible: Larger Cache": {
+"tier": 3,
+"image": null
+},
+"Fluid Supply Unit Template": {
+"tier": 3,
+"image": null
+},
+"Filling Unit: Fluid Mode": {
+"tier": 3,
+"image": null
+},
+"Planting Unit: Fluid Mode": {
+"tier": 3,
+"image": null
+},
+"Refining Unit: Fluid Mode": {
+"tier": 3,
+"image": null
+},
+"Moulding Unit: Fluid Mode": {
+"tier": 3,
+"image": null
+},
+"Water Treatment Unit Template": {
+"tier": 3,
+"image": null
+},
+"Fluid Tank Template": {
+"tier": 2,
+"image": null
+},
+"Sprinkler Template": {
+"tier": 3,
+"image": null
+},
+"Forge of the Sky Template": {
+"tier": 3,
+"image": null
+},
+"Purification Unit Template": {
+"tier": 3,
+"image": null
+},
+"Separating Unit Template": {
+"tier": 3,
+"image": null
+},
+"Depot Bus Section Template": {
+"tier": 4,
+"image": null
+},
+"Depot Bus Port Template": {
+"tier": 4,
+"image": null
+},
+"Forge Expansion I": {
+"tier": 3,
+"image": null
+},
+"Formula: Buckflower Powder": {
+"tier": 2,
+"image": "Formula Buckflower Powder"
+},
+"Formula: Buck Capsule (C)": {
+"tier": 3,
+"image": "Formula Buck Capsule (C)"
+},
+"Formula: Buck Capsule (B)": {
+"tier": 3,
+"image": "Formula Buck Capsule (B)"
+},
+"Formula: Buck Capsule (A)": {
+"tier": 4,
+"image": "Formula Buck Capsule (A)"
+},
+"Formula: Citrome Powder": {
+"tier": 2,
+"image": "Formula Citrome Powder"
+},
+"Formula: Canned Citrome (C)": {
+"tier": 3,
+"image": "Formula Canned Citrome (C)"
+},
+"Formula: Canned Citrome (B)": {
+"tier": 3,
+"image": "Formula Canned Citrome (B)"
+},
+"Formula: Canned Citrome (A)": {
+"tier": 4,
+"image": "Formula Canned Citrome (A)"
+},
+"Formula: Firebuckle Powder": {
+"tier": 3,
+"image": "Formula Firebuckle Powder"
+},
+"Formula: Buckpill (S)": {
+"tier": 4,
+"image": "Formula Buckpill (S)"
+},
+"Formula: Buckpill (L)": {
+"tier": 4,
+"image": "Formula Buckpill (L)"
+},
+"Formula: Buckpill (Rf.)": {
+"tier": 5,
+"image": "Formula Buckpill (Rf)"
+},
+"Formula: Citromix": {
+"tier": 3,
+"image": "Formula Citromix"
+},
+"Formula: Citromix (S)": {
+"tier": 4,
+"image": "Formula Citromix (S)"
+},
+"Formula: Citromix (L)": {
+"tier": 4,
+"image": "Formula Citromix (L)"
+},
+"Formula: Citromix (Rf.)": {
+"tier": 5,
+"image": "Formula Citromix (Rf)"
+},
+"Formula: Jincao Powder": {
+"tier": 2,
+"image": "Formula Jincao Powder"
+},
+"Formula: Jincao Drink": {
+"tier": 3,
+"image": "Formula Jincao Drink"
+},
+"Formula: Yazhen Powder": {
+"tier": 2,
+"image": "Formula Yazhen Powder"
+},
+"Formula: Yazhen Syringe (C)": {
+"tier": 3,
+"image": "Formula Yazhen Syringe (C)"
+},
+"Formula: Fluffed Jincao Powder": {
+"tier": 3,
+"image": "Formula Fluffed Jincao Powder"
+},
+"Formula: Jincao Tisane": {
+"tier": 4,
+"image": "Formula Jincao Tisane"
+},
+"Formula: Jincao Infusion": {
+"tier": 5,
+"image": "Formula Jincao Infusion"
+},
+"Formula: Thorny Yazhen Powder": {
+"tier": 3,
+"image": "Formula Thorny Yazhen Powder"
+},
+"Formula: Yazhen Spray (S)": {
+"tier": 4,
+"image": "Formula Yazhen Spray (S)"
+},
+"Formula: Yazhen Spray (L)": {
+"tier": 5,
+"image": "Formula Yazhen Spray (L)"
+},
+"Formula: Citrome Jam": {
+"tier": 2,
+"image": "Formula Citrome Jam"
+},
+"Formula: Bizarrotack": {
+"tier": 2,
+"image": "Formula Bizarrotack"
+},
+"Formula: Savory Fillet": {
+"tier": 2,
+"image": "Formula Savory Fillet"
+},
+"Formula: Coarse Flatbread": {
+"tier": 4,
+"image": "Formula Coarse Flatbread"
+},
+"Formula: Valley Pie": {
+"tier": 5,
+"image": "Formula Valley Pie"
+},
+"Formula: Tartpepper Salad": {
+"tier": 4,
+"image": "Formula Tartpepper Salad"
+},
+"Formula: Meat Stir-Fry": {
+"tier": 5,
+"image": "Formula Meat Stir-Fry"
+},
+"Formula: Arts Vial": {
+"tier": 3,
+"image": "Formula Arts Vial"
+},
+"Formula: Arts Tube": {
+"tier": 4,
+"image": "Formula Arts Tube"
+},
+"Formula: Kunst Vial": {
+"tier": 3,
+"image": "Formula Kunst Vial"
+},
+"Formula: Kunst Tube": {
+"tier": 4,
+"image": "Formula Kunst Tube"
+},
+"Formula: Savory Tangmian": {
+"tier": 3,
+"image": "Formula Savory Tangmian"
+},
+"Formula: Citrome Jelly": {
+"tier": 3,
+"image": "Formula Citrome Jelly"
+},
+"Formula: Valley Graybread": {
+"tier": 4,
+"image": "Formula Valley Graybread"
+},
+"Formula: Citrome Pudding": {
+"tier": 4,
+"image": "Formula Citrome Pudding"
+},
+"Formula: Savory Tangbao": {
+"tier": 5,
+"image": "Formula Savory Tangbao"
+},
+"Formula: Tartpepper Pickle": {
+"tier": 3,
+"image": "Formula Tartpepper Pickle"
+},
+"Formula: Bugtack": {
+"tier": 3,
+"image": "Formula Bugtack"
+},
+"Formula: Firetack": {
+"tier": 4,
+"image": "Formula Firetack"
+},
+"Formula: Cartilage Tack": {
+"tier": 3,
+"image": "Formula Cartilage Tack"
+},
+"Formula: Hot Crunchy Ribs": {
+"tier": 5,
+"image": "Formula Hot Crunchy Ribs"
+},
+"Formula: Fillet Confit": {
+"tier": 4,
+"image": "Formula Fillet Confit"
+},
+"Formula: Fortifying Infusion": {
+"tier": 4,
+"image": "Formula Fortifying Infusion"
+},
+"Formula: Ginseng Meat Stew": {
+"tier": 5,
+"image": "Formula Ginseng Meat Stew"
+},
+"Formula: Garden Fried Rice": {
+"tier": 4,
+"image": "Formula Garden Fried Rice"
+},
+"Formula: Wuling Fried Rice": {
+"tier": 5,
+"image": "Formula Wuling Fried Rice"
+},
+"Formula: Preserve Stew": {
+"tier": 3,
+"image": "Formula Preserve Stew"
+},
+"Formula: Firestove Rice": {
+"tier": 4,
+"image": "Formula Firestove Rice"
+},
+"Formula: Garden Stir-Fry": {
+"tier": 4,
+"image": "Formula Garden Stir-Fry"
+},
+"Formula: Smoked Riceball": {
+"tier": 5,
+"image": "Formula Smoked Riceball"
+},
+"Formula: Ashpin Remedy": {
+"tier": 3,
+"image": "Formula Ashpin Remedy"
+},
+"Formula: Blanched Remedy": {
+"tier": 4,
+"image": "Formula Blanched Remedy"
+},
+"Formula: Sensory Remedy": {
+"tier": 4,
+"image": "Formula Sensory Remedy"
+},
+"Formula: Corrective Remedy": {
+"tier": 5,
+"image": "Formula Corrective Remedy"
+},
+"Formula: Perplexing Medication": {
+"tier": 4,
+"image": "Formula Perplexing Medication"
+},
+"Formula: Bizarro Chili": {
+"tier": 4,
+"image": "Formula Bizarro Chili"
+},
+"Formula: Citrobucky Mix": {
+"tier": 4,
+"image": "Formula Citrobucky Mix"
+},
+"Formula: Hub Emergency Ration": {
+"tier": 4,
+"image": "Formula Hub Emergency Ration"
+},
+"Formula: Superhot Fruit Preserves": {
+"tier": 4,
+"image": "Formula Superhot Fruit Preserves"
+},
+"Formula: Sod-Turning Meat Soup": {
+"tier": 3,
+"image": "Formula Sod-Turning Meat Soup"
+},
+"Formula: Meaty Buckflower Stew": {
+"tier": 2,
+"image": "Formula Meaty Buckflower Stew"
+},
+"Formula: Handmade Weirdrop": {
+"tier": 2,
+"image": "Formula Handmade Weirdrop"
+},
+"Formula: Jakub's Legacy": {
+"tier": 4,
+"image": "Formula Jakub's Legacy"
+},
+"Formula: Seš'qa Style Fillet": {
+"tier": 2,
+"image": "Formula Seš'qa Style Fillet"
+},
+"Formula: Instant Bone Soup": {
+"tier": 2,
+"image": "Formula Instant Bone Soup"
+},
+"Formula: Edible Denstack": {
+"tier": 3,
+"image": "Formula Edible Denstack"
+},
+"Formula: Hazefyre Blossom": {
+"tier": 3,
+"image": "Formula Hazefyre Blossom"
+},
+"Formula: Stew Meeting": {
+"tier": 2,
+"image": "Formula Stew Meeting"
+},
+"Formula: Mini Honey Slugpudding": {
+"tier": 2,
+"image": "Formula Mini Honey Slugpudding"
+},
+"Formula: Pulled Slug Meat": {
+"tier": 4,
+"image": "Formula Pulled Slug Meat"
+},
+"Formula: Old Man John's Burger": {
+"tier": 3,
+"image": "Formula Old Man John's Burger"
+},
+"Formula: Cosmo-Melto Jelly": {
+"tier": 3,
+"image": "Formula Cosmo-Melto Jelly"
+},
+"Formula: Mystery Soda": {
+"tier": 3,
+"image": "Formula Mystery Soda"
+},
+"Formula: Chubby Lung Jellied Greens": {
+"tier": 4,
+"image": "Formula Chubby Lung Jellied Greens"
+},
+"Formula: Pan-Fried Double Crisp": {
+"tier": 4,
+"image": "Formula Pan-Fried Double Crisp"
+},
+"Formula: Mini Sugar Painting": {
+"tier": 3,
+"image": "Formula Mini Sugar Painting"
+},
+"Formula: Wuling Flame-Boyance": {
+"tier": 4,
+"image": "Formula Wuling Flame-Boyance"
+},
+"Formula: Simmered Xiranite Ball": {
+"tier": 4,
+"image": "Formula Simmered Xiranite Ball"
+},
+"Formula: Superhot Slug Gratin": {
+"tier": 3,
+"image": "Formula Superhot Slug Gratin"
+},
+"Formula: Secret Stimulating Tisane": {
+"tier": 3,
+"image": "Formula Secret Stimulating Tisane"
+},
+"Formula: Simple Pain Relief Salve": {
+"tier": 3,
+"image": "Formula Simple Pain Relief Salve"
+},
+"Formula: Bamboo Sprouts and Meat": {
+"tier": 3,
+"image": "Formula Bamboo Sprouts and Meat"
+},
+"Formula: Master Pan's Egg Pudding": {
+"tier": 4,
+"image": "Formula Master Pan's Egg Pudding"
+},
+"Formula: Echoing Remedy": {
+"tier": 3,
+"image": "Formula Echoing Remedy"
+},
+"Formula: Rind-Flavored Sprouts": {
+"tier": 4,
+"image": "Formula Rind-Flavored Sprouts"
+},
+"Kunst Vial Upgrade": {
+"tier": 3,
+"image": null
+},
+"Kunst Tube Upgrade": {
+"tier": 4,
+"image": null
+},
+"Coarse Flatbread Upgrade": {
+"tier": 4,
+"image": null
+},
+"Valley Pie Upgrade": {
+"tier": 5,
+"image": null
+},
+"Tartpepper Salad Upgrade": {
+"tier": 4,
+"image": null
+},
+"Meat Stir-Fry Upgrade": {
+"tier": 5,
+"image": null
+},
+"Citrome Jam Upgrade": {
+"tier": 2,
+"image": null
+},
+"Savory Tangmian Upgrade": {
+"tier": 3,
+"image": null
+},
+"Citrome Jelly Upgrade": {
+"tier": 3,
+"image": null
+},
+"Valley Graybread Upgrade": {
+"tier": 4,
+"image": null
+},
+"Citrome Pudding Upgrade": {
+"tier": 4,
+"image": null
+},
+"Savory Tangbao Upgrade": {
+"tier": 5,
+"image": null
+},
+"Bizarrotack Upgrade": {
+"tier": 2,
+"image": null
+},
+"Tartpepper Pickle Upgrade": {
+"tier": 3,
+"image": null
+},
+"Bugtack Upgrade": {
+"tier": 3,
+"image": null
+},
+"Firetack Upgrade": {
+"tier": 4,
+"image": null
+},
+"Cartilage Tack Upgrade": {
+"tier": 3,
+"image": null
+},
+"Hot Crunchy Ribs Upgrade": {
+"tier": 5,
+"image": null
+},
+"Savory Fillet Upgrade": {
+"tier": 2,
+"image": null
+},
+"Fillet Confit Upgrade": {
+"tier": 4,
+"image": null
+},
+"Fortifying Infusion Upgrade": {
+"tier": 4,
+"image": null
+},
+"Ginseng Meat Stew Upgrade": {
+"tier": 5,
+"image": null
+},
+"Garden Fried Rice Upgrade": {
+"tier": 4,
+"image": null
+},
+"Wuling Fried Rice Upgrade": {
+"tier": 4,
+"image": null
+},
+"Preserve Stew Upgrade": {
+"tier": 3,
+"image": null
+},
+"Firestove Rice Upgrade": {
+"tier": 4,
+"image": null
+},
+"Garden Stir-Fry Upgrade": {
+"tier": 4,
+"image": null
+},
+"Smoked Riceball Upgrade": {
+"tier": 5,
+"image": null
+},
+"Ashpin Remedy Upgrade": {
+"tier": 3,
+"image": null
+},
+"Blanched Remedy Upgrade": {
+"tier": 4,
+"image": null
+},
+"Sensory Remedy Upgrade": {
+"tier": 4,
+"image": null
+},
+"Corrective Remedy Upgrade": {
+"tier": 5,
+"image": null
+},
+"Hub Emergency Ration Upgrade": {
+"tier": 4,
+"image": null
+},
+"Superhot Fruit Preserves Upgrade": {
+"tier": 4,
+"image": null
+},
+"Stew Meeting Upgrade": {
+"tier": 2,
+"image": null
+},
+"Mini Honey Slugpudding Upgrade": {
+"tier": 2,
+"image": null
+},
+"Pulled Slug Meat Upgrade": {
+"tier": 4,
+"image": null
+},
+"Cosmo-Melto Jelly Upgrade": {
+"tier": 3,
+"image": null
+},
+"Master Pan's Egg Pudding Upgrade": {
+"tier": 4,
+"image": null
+},
+"Mystery Soda Upgrade": {
+"tier": 3,
+"image": null
+},
+"Chubby Lung Jellied Greens Upgrade": {
+"tier": 4,
+"image": null
+},
+"Sod-Turning Meat Soup Upgrade": {
+"tier": 3,
+"image": null
+},
+"Instant Bone Soup Upgrade": {
+"tier": 2,
+"image": null
+},
+"Basic Armor (Recipe)": {
+"tier": 1,
+"image": null
+},
+"Basic PPE (Recipe)": {
+"tier": 1,
+"image": null
+},
+"Basic Gauntlets (Recipe)": {
+"tier": 1,
+"image": null
+},
+"Basic Gloves (Recipe)": {
+"tier": 1,
+"image": null
+},
+"Miner Overalls (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Miner Armor (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Miner Gloves (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Miner Gauntlets (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Emergency Compression Core (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Emergency Comm (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Prototype Heavy Armor (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Prototype Heavy Armor T1 (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Miner Vest (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Miner Cleansuit (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Miner Wrists (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Miner Fists (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Miner Gauntlets T1 (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Miner Gloves T1 (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Miner Turbine (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Miner Drive Wheel (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Miner Compression Core (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Miner Comm (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Miner Armor T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Miner Overalls T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Miner Gloves T2 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Miner Fists T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Miner Turbine T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Miner Compression Core T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Miner Drive Wheel T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Miner Comm T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Redeemer Plates (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Redeemer Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Redeemer Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Redeemer Hands (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Redeemer Tag (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Redeemer Tag T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Redeemer Seal (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Redeemer Seal T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"AIC Heavy Armor (Recipe)": {
+"tier": 2,
+"image": null
+},
+"AIC Gauntlets (Recipe)": {
+"tier": 2,
+"image": null
+},
+"AIC Heavy Plate (Recipe)": {
+"tier": 2,
+"image": null
+},
+"AIC Alloy Plate (Recipe)": {
+"tier": 2,
+"image": null
+},
+"AIC Light Armor (Recipe)": {
+"tier": 2,
+"image": null
+},
+"AIC Tactical Gloves (Recipe)": {
+"tier": 2,
+"image": null
+},
+"AIC Light Plate (Recipe)": {
+"tier": 2,
+"image": null
+},
+"AIC Ceramic Plate (Recipe)": {
+"tier": 2,
+"image": null
+},
+"Armored MSGR Jacket (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Armored MSGR Gloves (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Armored MSGR Flashlight (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Armored MSGR Gyro (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Roving MSGR Jacket (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Roving MSGR Fists (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Roving MSGR Flashlight (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Roving MSGR Gyro (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Vest (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Gloves (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Wrench (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Wrench T1 (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Insulation Battery (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Resistant Vest (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Resistant Gloves (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Resistant Wrench (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Mordvolt Resistant Battery (Recipe)": {
+"tier": 3,
+"image": null
+},
+"Aburrey Heavy Armor (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey Heavy Armor T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey Light Armor (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey Light Armor T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey Gauntlets (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey UV Lamp (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey Flashlight (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey Auditory Chip (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey Auditory Chip T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey Sensor Chip (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Aburrey Sensor Chip T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Heavy Armor (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Heavy Armor T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Gloves (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Filter (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Gauze Cartridge (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Catastrophe Gauze Cartridge T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Jacket T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Gloves T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Gloves T2 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Flashlight T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Armored MSGR Gyro T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Jacket T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Fists T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Flashlight T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Flashlight T2 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Roving MSGR Gyro T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Vest T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Vest T2 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Gloves T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Wrench T2 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Insulation Battery T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Resistant Vest T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Resistant Gloves T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Resistant Wrench T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Mordvolt Resistant Battery T1 (Recipe)": {
+"tier": 4,
+"image": null
+},
+"Swordmancer Heavy Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Swordmancer Light Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Swordmancer TAC Gauntlets (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Swordmancer TAC Fists (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Swordmancer Flint (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Swordmancer NAV Beacon (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Swordmancer Micro Filter (Recipe)": {
+"tier": 5,
+"image": null
+},
+"LYNX Heavy Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"LYNX Cuirass (Recipe)": {
+"tier": 5,
+"image": null
+},
+"LYNX Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"LYNX Gauntlets (Recipe)": {
+"tier": 5,
+"image": null
+},
+"LYNX Connector (Recipe)": {
+"tier": 5,
+"image": null
+},
+"LYNX Connector T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"LYNX Connector T2 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"LYNX Slab (Recipe)": {
+"tier": 5,
+"image": null
+},
+"LYNX Aegis Injector (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Æthertech Plating (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Æthertech Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Æthertech Light Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Æthertech Analysis Band (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Æthertech Stabilizer (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Æthertech Stabilizer T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Æthertech Watch (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Heavy Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Heavy Armor T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Poncho (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Poncho T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Mask (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Mask T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Figurine (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Bonekrusha Figurine T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Disruptor Suit (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Calibrator (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Probe (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Pulser Labs Invasion Core (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Frontiers Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Frontiers Armor T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Frontiers Armor T2 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Frontiers Armor T3 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Frontiers Blight RES Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Frontiers Comm (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Frontiers Comm T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Frontiers Extra O2 Tube (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Hot Work Exoskeleton (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Hot Work Exo-Rig (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Hot Work Gauntlets (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Hot Work Gauntlets T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Hot Work Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Hot Work Pyrometer (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Hot Work Power Bank (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Hot Work Power Cartridge (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Overalls (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Overalls T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Overalls T2 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Hands PPE (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Hands PPE T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Armband (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Scope (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Toolkit (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Push Knife (Recipe)": {
+"tier": 5,
+"image": null
+},
+"MI Security Push Knife T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Heavy Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Light Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Gloves T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Knife (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Knife T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Type 50 Yinglung Radar (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Tide Fall Light Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Tide Surge Gauntlets (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Hanging River O2 Tube (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Turbid Cutting Torch (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Armor (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Gloves (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Gloves T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Power Core (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Power Core T1 (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Eternal Xiranite Auxiliary Arm (Recipe)": {
+"tier": 5,
+"image": null
+},
+"Turbid Essence": {
+"tier": 1,
+"image": null
+},
+"Stable Essence": {
+"tier": 2,
+"image": null
+},
+"Clean Essence": {
+"tier": 3,
+"image": null
+},
+"Pure Essence": {
+"tier": 4,
+"image": null
+},
+"Flawless Essence": {
+"tier": 5,
+"image": null
+},
+"Flawless Essence: Assault": {
+"tier": 5,
+"image": "Flawless Essence Assault"
+},
+"Flawless Essence: Suppression": {
+"tier": 5,
+"image": "Flawless Essence Suppression"
+},
+"Flawless Essence: Pursuit": {
+"tier": 5,
+"image": "Flawless Essence Pursuit"
+},
+"Flawless Essence: Crusher": {
+"tier": 5,
+"image": "Flawless Essence Crusher"
+},
+"Flawless Essence: Inspiring": {
+"tier": 5,
+"image": "Flawless Essence Inspiring"
+},
+"Flawless Essence: Combative": {
+"tier": 5,
+"image": "Flawless Essence Combative"
+},
+"Flawless Essence: Brutality": {
+"tier": 5,
+"image": "Flawless Essence Brutality"
+},
+"Flawless Essence: Infliction": {
+"tier": 5,
+"image": "Flawless Essence Infliction"
+},
+"Flawless Essence: Medicant": {
+"tier": 5,
+"image": "Flawless Essence Medicant"
+},
+"Flawless Essence: Fracture": {
+"tier": 5,
+"image": "Flawless Essence Fracture"
+},
+"Flawless Essence: Detonate": {
+"tier": 5,
+"image": "Flawless Essence Detonate"
+},
+"Flawless Essence: Twilight": {
+"tier": 5,
+"image": "Flawless Essence Twilight"
+},
+"Flawless Essence: Flow": {
+"tier": 5,
+"image": "Flawless Essence Flow"
+},
+"Flawless Essence: Efficacy": {
+"tier": 5,
+"image": "Flawless Essence Efficacy"
+},
+"Valley Multi-Line Engraving Kit": {
+"tier": 5,
+"image": null
+}
+}

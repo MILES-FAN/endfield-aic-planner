@@ -1,0 +1,83 @@
+{
+ "Expanded Crucible": {
+  "cn": "扩容反应池"
+ },
+ "Filling Unit": {
+  "cn": "灌装机",
+  "power": 20.0
+ },
+ "Fitting Unit": {
+  "cn": "配件机",
+  "power": 20.0
+ },
+ "Fluid-Gas Transmuting Unit": {
+  "cn": "液气转化机",
+  "power": 50.0,
+  "activator": {
+   "item": "Liquid Xiranite",
+   "rate": 6.0
+  }
+ },
+ "Forge of the Sky": {
+  "cn": "天有洪炉",
+  "power": 50.0
+ },
+ "Gas Reactor Globe": {
+  "cn": "气体反应炉",
+  "power": 50.0
+ },
+ "Gearing Unit": {
+  "cn": "装备原件机",
+  "power": 10.0
+ },
+ "Grinding Unit": {
+  "cn": "研磨机",
+  "power": 50.0
+ },
+ "Moulding Unit": {
+  "cn": "塑形机",
+  "power": 10.0
+ },
+ "Packaging Unit": {
+  "cn": "封装机",
+  "power": 20.0
+ },
+ "Planting Unit": {
+  "cn": "种植机",
+  "power": 20.0
+ },
+ "Purification Unit": {
+  "cn": "提纯机"
+ },
+ "Reactor Crucible": {
+  "cn": "反应池",
+  "power": 50.0
+ },
+ "Refining Unit": {
+  "cn": "精炼炉",
+  "power": 5.0
+ },
+ "Seed-Picking Unit": {
+  "cn": "采种机",
+  "power": 10.0
+ },
+ "Separating Unit": {
+  "cn": "拆解机",
+  "power": 20.0
+ },
+ "Shredding Unit": {
+  "cn": "粉碎机",
+  "power": 5.0
+ },
+ "Solid-Gas Transmuting Unit": {
+  "cn": "固气转化机",
+  "power": 50.0,
+  "activator": {
+   "item": "Xiragen",
+   "rate": 6.0
+  }
+ },
+ "Thermal Bank": {
+  "cn": "热能池"
+ }
+}

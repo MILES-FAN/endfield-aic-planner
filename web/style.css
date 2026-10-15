@@ -1,0 +1,648 @@
+/* =====================================================================
+ * Endfield-style theme for the AIC planner.
+ *
+ * Palette taken from the official site's stylesheets (endfield.gryphline.com,
+ * most-used colors: #191919 / #fff / #FFFA00 / #d9d9d9 / #f2f2f2 / #35373c,
+ * accents #00FFA2 and #FF1AAC) and checked against in-game screenshots:
+ *   light — white/gray paper with fine hatching, pure-yellow slabs carrying
+ *           black text, black label chips, thin ruled lines, square corners;
+ *   dark  — the in-game main menu: near-black field, light-gray tiles,
+ *           yellow highlights + yellow number tags with black text.
+ * Yellow is used as a FILL (with --on-accent text), never as text on light.
+ *
+ * Theme: follows the OS by default; <html data-theme="light|dark"> forces it
+ * (set by the theme button in app.js, persisted in localStorage).
+ * ===================================================================== */
+:root {
+  color-scheme: light;
+  --bg:        #e6e6e6;
+  --bg-2:      #f7f7f7;         /* inputs, stat cells, rows */
+  --panel:     #f2f2f2;
+  --panel-2:   #ffffff;         /* cards, dropdowns */
+  --line:      #d9d9d9;
+  --line-2:    #b3b3b3;
+  --ink:       #191919;
+  --ink-dim:   #4d4d4d;
+  --ink-mute:  #7c7c7c;
+  --hatch:     rgba(0,0,0,.035);
+  --grid:      rgba(0,0,0,.055);
+  --grid-major:rgba(0,0,0,.09);
+  --edge:      #9a9a9a;
+  --slot:      #2e2f33;         /* item-icon slot (icons are drawn for dark slots, as in-game) */
+  --shadow:    0 6px 16px rgba(0,0,0,.12);
+
+  --accent:    #fffa00;         /* Endfield yellow — fills only */
+  --on-accent: #191919;
+  --accent-ink:#191919;         /* "accent" text/borders that must read on the background */
+  --accent-2:  #00a86b;         /* site's #00FFA2, darkened for light paper */
+  --danger:    #e0168f;         /* site's #FF1AAC, darkened */
+  --good:      #00875a;
+
+  --inv-bg:    #191919;         /* inverted surfaces: tooltip, black label chips */
+  --inv-ink:   #f2f2f2;
+  --inv-dim:   #b3b3b3;
+
+  /* rarity (tier 1-6), in-game star colors */
+  --t1: #8a8a8a;
+  --t2: #8cc63f;
+  --t3: #1fa8e8;
+  --t4: #9a6cf0;
+  --t5: #f2b600;
+  --t6: #ff6a1f;
+
+  --font-display: "Bahnschrift", "DIN Alternate", "D-DIN", "Barlow", "Roboto Condensed",
+                  "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
+  --font-body: "Segoe UI", "HarmonyOS Sans SC", "PingFang SC", "Microsoft YaHei",
+               "Hiragino Sans", "Yu Gothic UI", system-ui, sans-serif;
+}
+/* dark: OS preference unless forced light, or forced dark */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #111213; --bg-2: #1b1c1f; --panel: #17181a; --panel-2: #222326;
+    --line: #2e2f33; --line-2: #45474d;
+    --ink: #f2f2f2; --ink-dim: #b3b3b3; --ink-mute: #7e7e7e;
+    --hatch: rgba(255,255,255,.018); --grid: rgba(255,255,255,.035); --grid-major: rgba(255,255,255,.065);
+    --edge: #5c5e64; --slot: #0c0d0e; --shadow: 0 8px 20px rgba(0,0,0,.45);
+    --accent-ink: #fffa00; --accent-2: #00ffa2; --danger: #ff1aac; --good: #00e090;
+    --inv-bg: #e6e6e6; --inv-ink: #191919; --inv-dim: #4d4d4d;
+    --t1: #9a9a9a; --t2: #a6d94a; --t3: #26bbfd; --t4: #b28bff; --t5: #ffc400; --t6: #ff7a2e;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #111213; --bg-2: #1b1c1f; --panel: #17181a; --panel-2: #222326;
+  --line: #2e2f33; --line-2: #45474d;
+  --ink: #f2f2f2; --ink-dim: #b3b3b3; --ink-mute: #7e7e7e;
+  --hatch: rgba(255,255,255,.018); --grid: rgba(255,255,255,.035); --grid-major: rgba(255,255,255,.065);
+  --edge: #5c5e64; --slot: #0c0d0e; --shadow: 0 8px 20px rgba(0,0,0,.45);
+  --accent-ink: #fffa00; --accent-2: #00ffa2; --danger: #ff1aac; --good: #00e090;
+  --inv-bg: #e6e6e6; --inv-ink: #191919; --inv-dim: #4d4d4d;
+  --t1: #9a9a9a; --t2: #a6d94a; --t3: #26bbfd; --t4: #b28bff; --t5: #ffc400; --t6: #ff7a2e;
+}
+
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background-color: var(--bg);
+  background-image: repeating-linear-gradient(135deg, var(--hatch) 0 1px, transparent 1px 7px);
+  color: var(--ink);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+button, input, select { font-family: inherit; }
+::selection { background: var(--accent); color: var(--on-accent); }
+
+/* shared "technical label": wide-tracked uppercase in the display face */
+.field label, .lp-field, .panel-block h2, .stat .k, .graph-toolbar button, .toggle, .primary, .mini {
+  font-family: var(--font-display);
+}
+
+/* ---------------------------------------------------------------- topbar
+ * Chrome is kept to one compact row each (topbar, LP bar) so the graph gets the
+ * screen: field labels sit INSIDE the control as a prefix cell instead of above
+ * it, and the graph toolbar floats over the stage. --ctl is the control height,
+ * shrunk on short laptop screens and grown for touch on phones. */
+:root { --ctl: 34px; }
+.topbar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 16px 12px;
+  background: var(--panel-2);
+  border-bottom: 1px solid var(--line-2);
+}
+/* yellow / black hazard strip along the bottom edge */
+.topbar::after {
+  content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 4px;
+  background: repeating-linear-gradient(135deg, var(--accent) 0 10px, var(--ink) 10px 20px);
+  opacity: .9;
+}
+.brand { display: flex; align-items: center; gap: 10px; flex-shrink: 0; }
+.brand-mark {
+  display: grid; place-items: center;
+  width: var(--ctl); height: var(--ctl); flex-shrink: 0;
+  background: var(--accent); color: var(--on-accent);
+  clip-path: polygon(0 0, 100% 0, 100% 72%, 72% 100%, 0 100%);
+}
+/* PAC glyph, drawn in the badge's ink; the core's accent-colored outline cuts a thin
+   gap between it and the rails */
+.brand-mark .pac { width: 84%; height: 84%; display: block; }
+.pac-base, .pac-rail { fill: currentColor; }
+.pac-core { fill: currentColor; stroke: var(--accent); stroke-width: 1.4; paint-order: stroke; }
+.topbar h1 {
+  margin: 0; font-family: var(--font-display); white-space: nowrap;
+  font-size: 16px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; line-height: 1.15;
+}
+.sub {
+  margin: 2px 0 0; font-size: 10.5px; color: var(--ink-mute); white-space: nowrap;
+  font-family: var(--font-display); letter-spacing: .08em;
+}
+.sub::before { content: "// "; color: var(--ink-dim); }
+
+.controls {
+  display: flex; align-items: center; justify-content: flex-end; gap: 8px;
+  flex: 1; min-width: 0;
+}
+/* labelled control: [ LABEL | input ] in one bordered box */
+.field {
+  display: flex; align-items: stretch; height: var(--ctl); min-width: 0;
+  background: var(--bg-2); border: 1px solid var(--line-2);
+}
+.field label {
+  display: flex; align-items: center; padding: 0 9px; white-space: nowrap;
+  font-size: 10.5px; text-transform: uppercase; letter-spacing: .12em; color: var(--ink-mute);
+  background: var(--panel); border-right: 1px solid var(--line);
+}
+.field input, .field select {
+  min-width: 0; height: 100%;
+  background: transparent; border: none; border-radius: 0;
+  color: var(--ink); padding: 0 10px; font-size: 14px; outline: none;
+}
+.field select { cursor: pointer; }
+.field:focus-within, .lp-field select:focus, .lp-field input:focus, .alt-item select:focus,
+.lang-sel:focus-visible, .theme-btn:focus-visible {
+  border-color: var(--ink); box-shadow: 0 0 0 3px color-mix(in srgb, var(--accent) 70%, transparent);
+}
+/* the suggest list anchors to the whole field (label included), not just the input */
+.search-field { position: relative; flex: 0 1 340px; min-width: 170px; }
+.rate-field, .env-field { flex-shrink: 0; }    /* the search box gives way first */
+.search-wrap { flex: 1; min-width: 0; display: flex; }
+#target { width: 100%; }
+.rate-field input { width: 90px; }
+
+.primary {
+  flex-shrink: 0;
+  background: var(--accent);
+  color: var(--on-accent);
+  border: none;
+  border-radius: 0;
+  padding: 0 24px 0 16px;
+  font-weight: 700;
+  font-size: 13.5px;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  cursor: pointer;
+  height: var(--ctl);
+  clip-path: polygon(0 0, 100% 0, 100% 62%, calc(100% - 12px) 100%, 0 100%);
+}
+.primary:hover { filter: brightness(.95); }
+.primary:active { transform: translateY(1px); }
+
+.lang-sel, .theme-btn {
+  flex-shrink: 0;
+  height: var(--ctl); padding: 0 6px;
+  background: var(--bg-2); color: var(--ink);
+  border: 1px solid var(--line-2); border-radius: 0;
+  font-size: 13px; font-weight: 700; cursor: pointer; outline: none;
+}
+.theme-btn { width: var(--ctl); padding: 0; font-size: 15px; line-height: 1; }
+.lang-sel:hover, .theme-btn:hover { border-color: var(--ink); }
+
+.toggle {
+  flex-shrink: 0;
+  display: inline-flex; align-items: center; gap: 8px;
+  height: var(--ctl); padding: 0 12px;
+  background: var(--bg-2); color: var(--ink-dim);
+  border: 1px solid var(--line-2); border-radius: 0; white-space: nowrap;
+  font-size: 12.5px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; cursor: pointer;
+}
+.toggle .dot { width: 8px; height: 8px; background: var(--ink-mute); transform: rotate(45deg); }
+.toggle:hover { border-color: var(--ink); }
+.toggle.on { color: var(--inv-ink); background: var(--inv-bg); border-color: var(--inv-bg); }
+.toggle.on .dot { background: var(--accent); box-shadow: 0 0 8px var(--accent); }
+
+/* ------------------------------------------------------------- LP bar */
+.lp-bar {
+  display: flex; align-items: center; gap: 8px 14px; flex-wrap: wrap;
+  padding: 8px 16px;
+  background: var(--panel);
+  border-bottom: 1px solid var(--line-2);
+}
+/* same [ LABEL | control ] cell pattern as the topbar; chips follow inline */
+.lp-field { display: flex; align-items: center; min-width: 0; font-size: 10.5px;
+  text-transform: uppercase; letter-spacing: .12em; color: var(--ink-mute); }
+.lp-field > span:first-child {
+  display: flex; align-items: center; height: var(--ctl); padding: 0 9px; white-space: nowrap;
+  background: var(--panel-2); border: 1px solid var(--line-2); border-right: none;
+}
+.lp-field select, .lp-field input {
+  height: var(--ctl); min-width: 0;
+  background: var(--bg-2); color: var(--ink);
+  border: 1px solid var(--line-2); border-radius: 0; padding: 0 8px;
+  font-family: var(--font-body);
+  font-size: 13px; text-transform: none; letter-spacing: 0; outline: none;
+}
+.lp-add-row { display: flex; min-width: 0; }
+.lp-add-row > * + * { margin-left: -1px; }          /* share borders: one joined group */
+.lp-add-row select { width: 140px; }
+.lp-add-row input { width: 128px; }
+#lp-cap-n { width: 56px; }
+.mini {
+  flex-shrink: 0; width: var(--ctl); height: var(--ctl); padding: 0;
+  background: var(--ink); color: var(--panel-2); border: 1px solid var(--ink);
+  border-radius: 0; cursor: pointer; position: relative;
+  font-size: 17px; font-weight: 700; line-height: 1;
+}
+.mini:hover { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 4px; max-width: 280px; margin-left: 6px; }
+.chips:empty { display: none; }
+.chip {
+  display: inline-flex; align-items: center; gap: 4px;
+  background: var(--panel-2); border: 1px solid var(--line-2); border-left: 3px solid var(--accent);
+  color: var(--ink); border-radius: 0; padding: 2px 4px 2px 8px;
+  font-family: var(--font-body);
+  font-size: 12px; text-transform: none; letter-spacing: 0;
+}
+.chip-x { background: none; border: none; color: var(--ink-mute); cursor: pointer;
+  font-size: 15px; line-height: 1; padding: 0 3px; }
+.chip-x:hover { color: var(--danger); }
+
+/* ------------------------------------------------------------- suggest */
+.suggest {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 4px);
+  left: -1px; min-width: calc(100% + 2px); width: 380px; max-width: calc(100vw - 24px);
+  margin: 0; padding: 4px;
+  list-style: none;
+  background: var(--panel-2);
+  border: 1px solid var(--line-2);
+  border-top: 3px solid var(--accent);
+  border-radius: 0;
+  max-height: min(320px, 60vh);
+  overflow-y: auto;
+  box-shadow: 0 18px 40px rgba(0,0,0,.25);
+}
+.suggest li {
+  display: flex; align-items: center; gap: 9px;
+  padding: 6px 9px; cursor: pointer;
+}
+.suggest li.active, .suggest li:hover { background: var(--accent); color: var(--on-accent); }
+.suggest li.active .cn, .suggest li:hover .cn { color: var(--on-accent); opacity: .7; }
+.suggest img { width: 26px; height: 26px; background: var(--slot); }
+.suggest .en { font-size: 13px; }
+.suggest .cn { font-size: 12px; color: var(--ink-mute); margin-left: auto; }
+
+/* ---------------------------------------------------------------- layout */
+main { flex: 1; display: flex; min-height: 0; }
+.stage { flex: 1; display: flex; flex-direction: column; min-width: 0; position: relative; }
+
+/* floats over the top of the stage (no row of its own); only its children take
+   pointer events, so dragging the empty strip still pans the graph. fitView()
+   in app.js fits the graph into the area below it. */
+.graph-toolbar {
+  position: absolute; z-index: 3; top: 10px; left: 12px; right: 12px;
+  display: flex; align-items: center; gap: 6px;
+  pointer-events: none;
+}
+.graph-toolbar > * { pointer-events: auto; }
+.graph-toolbar .spacer { flex: 1; pointer-events: none; }
+.plan-title {
+  min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  font-size: 13.5px; font-weight: 600; line-height: 20px;
+  padding: 4px 10px; background: var(--panel-2); border: 1px solid var(--line-2);
+  box-shadow: var(--shadow);
+}
+.plan-title::before {
+  content: "["; margin-right: 6px; color: var(--ink-mute); font-weight: 400;
+}
+.plan-title::after { content: "]"; margin-left: 6px; color: var(--ink-mute); font-weight: 400; }
+/* highlighted name = yellow marker slab, black text (reads in both themes) */
+.plan-title b { background: var(--accent); color: var(--on-accent); padding: 1px 6px; }
+.graph-toolbar button {
+  flex-shrink: 0; min-width: 30px; height: 30px;
+  background: var(--panel-2); color: var(--ink);
+  border: 1px solid var(--line-2); border-radius: 0; box-shadow: var(--shadow);
+  cursor: pointer; font-size: 14px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase;
+}
+.graph-toolbar button:hover { background: var(--accent); color: var(--on-accent); border-color: var(--accent); }
+
+/* cursor/touch-action/panning live on the host (not #graph) since it's the shared
+ * pointer-event target for both the SVG edge layer and the HTML node-card overlay */
+.graph-host {
+  flex: 1; position: relative; overflow: hidden; cursor: grab; touch-action: none;
+  /* blueprint grid: 24px minor, 120px major */
+  background-color: var(--bg);
+  background-image:
+    linear-gradient(var(--grid-major) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-major) 1px, transparent 1px),
+    linear-gradient(var(--grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid) 1px, transparent 1px);
+  background-size: 120px 120px, 120px 120px, 24px 24px, 24px 24px;
+}
+/* "+" registration marks in the stage corners, as on the official site */
+.graph-host::before, .graph-host::after {
+  content: "+"; position: absolute; z-index: 1; pointer-events: none;
+  font: 300 18px/1 var(--font-display); color: var(--ink-mute);
+}
+.graph-host::before { bottom: 8px; left: 10px; }   /* top-left sits under the toolbar */
+.graph-host::after { bottom: 8px; right: 10px; }
+.graph-host.panning { cursor: grabbing; }
+#graph { width: 100%; height: 100%; display: block; }
+.nodes-layer { position: absolute; inset: 0; transform-origin: 0 0; }
+
+.placeholder {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column; align-items: center; justify-content: center;
+  text-align: center; padding: 0 30px; color: var(--ink-dim);
+}
+.placeholder .big {
+  font-family: var(--font-display); font-size: 24px; font-weight: 700;
+  letter-spacing: .14em; text-transform: uppercase;
+  color: var(--on-accent); background: var(--accent);
+  padding: 6px 22px 6px 16px; margin: 0 0 12px;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, calc(100% - 12px) 100%, 0 100%);
+}
+.placeholder p { max-width: 460px; line-height: 1.6; margin: 4px 0; }
+.placeholder .hint {
+  font-family: var(--font-display); font-size: 11px; letter-spacing: .06em;
+  color: var(--ink-mute); margin-top: 14px;
+}
+code { background: var(--bg-2); border: 1px solid var(--line); padding: 1px 5px; color: var(--ink); font-size: .92em; }
+
+/* ---------------------------------------------------------------- panel */
+.panel {
+  width: 340px;
+  flex-shrink: 0;
+  border-left: 1px solid var(--line-2);
+  background: var(--panel);
+  overflow-y: auto;
+  padding: 4px 0 30px;
+}
+.panel-block { padding: 14px 16px; border-bottom: 1px solid var(--line); }
+/* section header: yellow tick + label + ruled line running to the edge */
+.panel-block h2 {
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  margin: 0 0 10px; font-size: 12.5px; font-weight: 700;
+  text-transform: uppercase; letter-spacing: .14em; color: var(--ink);
+}
+.panel-block h2::before {
+  content: ""; width: 4px; height: 14px; background: var(--accent);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--ink) 25%, transparent);
+}
+.panel-block h2::after { content: ""; flex: 1 1 20px; height: 1px; background: var(--line-2); }
+.panel-block h2 .muted { letter-spacing: .04em; font-weight: 500; }
+.tag {
+  display: inline-block; white-space: nowrap;
+  font-size: 11.5px; color: var(--inv-ink); background: var(--inv-bg);
+  padding: 1px 7px; margin-left: 4px; letter-spacing: .04em;
+}
+.muted { color: var(--ink-mute); }
+.small { font-size: 11px; }
+.text-transform-none { text-transform: none; }
+
+.summary { display: grid; grid-template-columns: 1fr 1fr; gap: 6px; }
+.stat {
+  position: relative;
+  background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: 0; padding: 8px 11px 9px;
+}
+/* corner bracket on each readout */
+.stat::before {
+  content: ""; position: absolute; top: -1px; left: -1px; width: 8px; height: 8px;
+  border-top: 2px solid var(--ink); border-left: 2px solid var(--ink);
+}
+.stat .k { font-size: 10.5px; color: var(--ink-mute); text-transform: uppercase; letter-spacing: .1em; }
+.stat .v {
+  font-family: var(--font-display); font-size: 19px; font-weight: 700; margin-top: 2px;
+  font-variant-numeric: tabular-nums;
+}
+.stat .v small { font-family: var(--font-body); font-size: 11px; font-weight: 500; color: var(--ink-mute); }
+.stat.wide { grid-column: 1 / -1; }
+.stat .v.rev { display: inline-block; background: var(--accent); color: var(--on-accent); padding: 0 6px; }
+.stat .v.rev small { color: var(--on-accent); opacity: .7; }
+
+.rows { display: flex; flex-direction: column; gap: 4px; }
+.row {
+  display: flex; align-items: center; gap: 9px;
+  background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: 0; padding: 5px 9px 5px 5px;
+}
+.row:hover { border-color: var(--line-2); }
+.row img { width: 30px; height: 30px; background: var(--slot); flex-shrink: 0; }
+.row .name { font-size: 13px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.row .name .cn { color: var(--ink-mute); font-size: 11px; margin-left: 5px; }
+.szt { font-size: 10px; color: var(--ink-dim); background: var(--panel); border: 1px solid var(--line);
+  padding: 0 4px; margin-left: 4px; font-variant-numeric: tabular-nums; }
+.row .val {
+  margin-left: auto; font-family: var(--font-display); font-size: 14px;
+  font-variant-numeric: tabular-nums; font-weight: 700;
+}
+.row .val.dim { color: var(--ink-dim); font-weight: 500; }
+.row .sub2 { font-size: 11px; color: var(--ink-mute); }
+.recyc { font-size: 10px; color: var(--good); border: 1px solid color-mix(in srgb, var(--good) 45%, transparent);
+  padding: 0 4px; letter-spacing: .04em; }
+
+.alt-item { margin-bottom: 10px; }
+.alt-item .alt-label { display: flex; align-items: center; gap: 7px; font-size: 12px; margin-bottom: 4px; }
+.alt-item img { width: 20px; height: 20px; background: var(--slot); }
+.alt-item select {
+  width: 100%; background: var(--bg-2); color: var(--ink);
+  border: 1px solid var(--line-2); border-radius: 0; padding: 6px 8px; font-size: 12px; outline: none;
+}
+.empty { color: var(--ink-mute); font-size: 12px; font-style: italic; }
+
+/* ------------------------------------------------------------ graph edges */
+.edge { fill: none; stroke: var(--edge); }
+/* recycle / feedback flows (a byproduct piped back upstream) read as green dashes */
+.edge.feedback { stroke: var(--accent-2); stroke-dasharray: 6 5; opacity: .9; }
+.edge-label { fill: var(--ink-dim); font-family: var(--font-display); font-size: 10.5px; font-variant-numeric: tabular-nums; }
+.edge-label-bg { fill: var(--bg); opacity: .9; }
+
+/* ------------------------------------------------------------ graph nodes */
+.gnode {
+  position: absolute;         /* placed via left/top/width/height set in app.js,
+                                  in the same world coordinates as the SVG edges */
+  display: flex; align-items: center; gap: 9px;
+  padding: 8px 11px 8px 13px;
+  background: var(--panel-2);
+  border: 1px solid var(--line-2);
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+/* cut corner (bottom-right), drawn as a triangle of the stage color */
+.gnode::after {
+  content: ""; position: absolute; right: -1px; bottom: -1px; width: 12px; height: 12px;
+  background: linear-gradient(135deg, transparent 50%, var(--line-2) 50%, var(--line-2) calc(50% + 1px), var(--bg) calc(50% + 1px));
+}
+.gnode .bar { position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--t1); }
+.gnode.t1 .bar { background: var(--t1); }
+.gnode.t2 .bar { background: var(--t2); }
+.gnode.t3 .bar { background: var(--t3); }
+.gnode.t4 .bar { background: var(--t4); }
+.gnode.t5 .bar { background: var(--t5); }
+.gnode.t6 .bar { background: var(--t6); }
+.gnode.raw {
+  background: var(--panel);
+  background-image: repeating-linear-gradient(135deg, var(--hatch) 0 1px, transparent 1px 6px);
+  border-style: dashed;
+}
+/* ENV zones (gas 1.4+): machines inside a Gas Dispersing Unit zone get that ENV's colored
+   frame + badge; the zone's own node (the disperser) is tinted; coverage links are dotted.
+   Colors follow endfield.wiki.gg's ENV rows (Stable #38C0FC, Acrid #FFB901). */
+:root { --env-stable: #38c0fc; --env-acrid: #ffb901; --env-other: #b48cff; }
+.gnode.in-env { --env: var(--env-other); border: 2px solid var(--env); box-shadow: 0 0 0 3px color-mix(in srgb, var(--env) 22%, transparent), var(--shadow); }
+.gnode.env-stable { --env: var(--env-stable); }
+.gnode.env-acrid { --env: var(--env-acrid); }
+.gnode.env-src { background: color-mix(in srgb, var(--env) 14%, var(--panel-2)); }
+.gnode .envtag {
+  position: absolute; top: 0; right: 8px; padding: 0 6px;
+  font-family: var(--font-display);
+  font-size: 9.5px; line-height: 14px; font-weight: 700; letter-spacing: .08em;
+  color: #191919; background: var(--env);
+}
+.edge.env-link { stroke-width: 1.6; stroke-dasharray: 2 5; stroke-linecap: round; opacity: .9; }
+.edge.env-stable { stroke: var(--env-stable); }
+.edge.env-acrid { stroke: var(--env-acrid); }
+.edge.env-other { stroke: var(--env-other); }
+.env-note { margin: -4px 0 8px; }
+.row.env-row { border-left: 3px solid var(--env-other); padding-left: 6px; }
+.row.env-row.env-stable { border-left-color: var(--env-stable); }
+.row.env-row.env-acrid { border-left-color: var(--env-acrid); }
+/* target: black keyline + yellow outer frame (visible on both papers) */
+.gnode.target {
+  border-color: var(--ink);
+  box-shadow: 0 0 0 1px var(--ink), 0 0 0 5px var(--accent), var(--shadow);
+}
+.gnode .ic { width: 38px; height: 38px; background: var(--slot); flex-shrink: 0; }
+.gnode .meta { min-width: 0; flex: 1; }
+.gnode .nm { font-size: 13px; font-weight: 600; color: var(--ink); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.gnode .nm .cn { color: var(--ink-mute); font-weight: 400; font-size: 11px; margin-left: 4px; }
+/* machine row: larger facility icon + 中文 machine name (the process); the machine
+   count lives in the right column so it's never clipped by the name */
+.gnode .mc { display: flex; align-items: center; gap: 5px; font-size: 12px; color: var(--ink-dim);
+  white-space: nowrap; overflow: hidden; margin-top: 3px; }
+.gnode .mc .fic { width: 20px; height: 20px; background: var(--slot); flex-shrink: 0; }
+.gnode .mc .fnm { overflow: hidden; text-overflow: ellipsis; }
+/* right column: output rate on top, machine count (×N) below — both always visible */
+.gnode .rt { display: flex; flex-direction: column; align-items: flex-end; justify-content: center;
+  gap: 3px; flex-shrink: 0; font-variant-numeric: tabular-nums; }
+.gnode .rt .out { font-family: var(--font-display); font-size: 12.5px; font-weight: 700; color: var(--ink); }
+.gnode .rt .out small { color: var(--ink-mute); font-weight: 500; }
+/* machine count: the in-game yellow number tag */
+.gnode .rt .mct {
+  font-family: var(--font-display); font-size: 13px; font-weight: 700; letter-spacing: .02em;
+  color: var(--on-accent); background: var(--accent); padding: 0 8px 0 6px;
+  clip-path: polygon(0 0, 100% 0, 100% 55%, calc(100% - 5px) 100%, 0 100%);
+}
+.gnode .recyc { margin-left: 4px; }
+
+/* ---------------------------------------------------------------- tooltip */
+/* inverted surface (black on light paper, light-gray tile on dark), like the
+   site's label chips and the in-game menu tiles */
+.tooltip {
+  --ink: var(--inv-ink); --ink-dim: var(--inv-dim); --ink-mute: var(--inv-dim);
+  position: fixed; z-index: 80; pointer-events: none;
+  background: var(--inv-bg); color: var(--inv-ink);
+  border-left: 3px solid var(--accent);
+  border-radius: 0; padding: 9px 12px; max-width: 260px;
+  box-shadow: 0 14px 30px rgba(0,0,0,.35); font-size: 12px;
+}
+.tooltip h4 { margin: 0 0 4px; font-size: 13px; }
+.tooltip .cn { color: var(--ink-mute); font-weight: 400; }
+.tooltip .line { color: var(--ink-dim); margin: 2px 0; }
+.tooltip .line b { color: var(--ink); font-weight: 600; }
+
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--line-2); }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-mute); }
+
+/* =============================================================== responsive
+ * Desktop is a fixed-viewport app (body:overflow:hidden, graph+panel share one
+ * screen), so every pixel of chrome comes out of the graph. Steps:
+ *   ≤1360 wide   drop the tagline;         ≤1100 wide  logo only, narrower panel;
+ *   ≤760 tall    (laptops at 125-150% zoom) tighter controls + panel spacing;
+ *   ≤860 wide    phone layout (below).
+ */
+@media (max-width: 1360px) {
+  .sub { display: none; }
+}
+@media (max-width: 1100px) and (min-width: 861px) {
+  .brand > div { display: none; }
+  .topbar { gap: 10px; }
+  .controls { gap: 6px; }
+  .field label { padding: 0 7px; letter-spacing: .06em; }
+  .panel { width: 290px; }
+}
+@media (max-height: 760px) and (min-width: 861px) {
+  :root { --ctl: 30px; }
+  .topbar { padding: 6px 16px 10px; }
+  .lp-bar { padding: 6px 16px; }
+  .field input, .field select { font-size: 13px; }
+  .panel-block { padding: 10px 14px; }
+  .panel-block h2 { margin-bottom: 8px; }
+  .stat { padding: 6px 10px 7px; }
+  .stat .v { font-size: 17px; }
+  .graph-toolbar { top: 8px; }
+}
+
+/* =============================================================== phones
+ * Phones don't have room for the side-by-side layout or a scroll wheel, so
+ * below 860px: the page becomes normally-scrollable, the graph and panel stack
+ * vertically (graph keeps a fixed viewport height — pan/pinch-zoom happen
+ * inside it — panel flows under it), controls wrap to full-width rows, and tap
+ * targets/inputs grow enough for fingers and to dodge iOS's auto-zoom-on-focus
+ * (needs >=16px input font-size). */
+@media (max-width: 860px) {
+  :root { --ctl: 42px; }
+  html, body { height: auto; }
+  body { overflow: visible; }
+
+  .topbar { flex-wrap: wrap; padding: 10px 12px 14px; gap: 10px; }
+  .brand { flex: 1; }
+  .brand-mark { width: 34px; height: 34px; }
+  .topbar h1 { font-size: 15px; }
+
+  /* lang + theme stay up beside the logo; the rest wraps to full-width rows */
+  .controls { display: contents; }
+  .lang-sel, .theme-btn { order: 0; }
+  .search-field { order: 1; flex: 1 1 100%; }
+  .rate-field { order: 2; flex: 1 1 140px; }
+  .env-field { order: 3; flex: 1 1 140px; }
+  .toggle { order: 4; flex: 1 1 auto; justify-content: center; }
+  .primary { order: 5; flex: 1 1 auto; }
+  .rate-field input, .env-field select { flex: 1; width: auto; }
+  .field input, .field select { font-size: 16px; }         /* prevent iOS auto-zoom on focus */
+
+  /* objective + self-power share a row; each adder gets a full row */
+  .lp-bar { align-items: stretch; gap: 8px; padding: 10px 12px; }
+  .lp-field { flex: 1 1 160px; flex-wrap: wrap; row-gap: 6px; }
+  .lp-adder { flex-basis: 100%; }
+  .lp-field > span:first-child { flex: 0 0 auto; }
+  .lp-field > select, .lp-add-row { flex: 1 1 0; }
+  .lp-field select, .lp-field input { font-size: 16px; }
+  .lp-add-row select, .lp-add-row input { flex: 1 1 0; width: auto; }
+  #lp-cap-n { flex: 0 0 72px; width: 72px; }
+  .chips { flex-basis: 100%; max-width: none; margin-left: 0; }
+  .chip { padding: 6px 6px 6px 12px; font-size: 13px; }
+  .chip-x { font-size: 18px; padding: 2px 5px; }
+
+  main { flex-direction: column; }
+  .stage { flex: none; height: 62vh; min-height: 380px; }
+  .graph-toolbar { top: 8px; left: 8px; right: 8px; }
+  .graph-toolbar button { min-width: 38px; height: 38px; font-size: 16px; }
+  .plan-title { font-size: 12.5px; }
+
+  .panel { width: 100%; max-height: none; overflow: visible; padding-bottom: 40px; border-left: none; }
+
+  .suggest li { padding: 11px 9px; }
+  .suggest img { width: 30px; height: 30px; }
+}
+
+@media (max-width: 480px) {
+  .stage { height: 56vh; min-height: 320px; }
+  .summary { grid-template-columns: 1fr; }
+  .row img, .gnode .ic { width: 32px; height: 32px; }
+  .placeholder .big { font-size: 19px; }
+  .field label { padding: 0 7px; letter-spacing: .04em; }
+}
